@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+## 1.4.3-lnk1 (LNKtwo's own version, based on Emrodev's 1.4.3)
+- Own app: app ID `com.ipvio.stream.lnk`, name "IPVIO LNK", so it installs beside Emrodev's IPVIO Stream; the update check reads LNKtwo/IPVIO-Stream's releases. versionCode 10
+- Player: the remote's channel keys (P+ / P−, e.g. Sony's PROG) switch to the next / previous channel in live TV, also in Boomer mode
+- Channel lists in a browser: new page `/lists` on the phone-remote server (same port and access code as `/r`): all live channels by category or search on the left, the chosen list on the right; create, rename and delete lists, add, remove and move channels. New `/api` calls `lnew`, `lren`, `ldel`, `ladd`, `lrem`, `lmove` use `ChannelLists` as the TV does. The `/r` page shows the address
+
 ## 1.4.3 (versionCode 9)
 - Live sync (Google Drive): favorites and history follow your devices automatically. Switch it on in Settings > Storage > Google Drive on each device; it is off by default. Upload a few seconds after a change, download when the app is in front (about every minute). Merged on the device, a safety copy is kept before each merge. Not device tested yet
 - Live TV: a provider category can float like in Movies and Series ("Mit Hoch/Runter verschieben"): Up/Down move it, OK or Back puts it down; new menu entry "Ans Ende verschieben" (move to the end)
