@@ -1,22 +1,35 @@
-# IPVIO Stream
+# IPVIO LNK
 
-DOWNLOADER CODE: 4200542
+A personal, independently maintained version of [IPVIO Stream](https://github.com/Emrodev/IPVIO-Stream) by Emrodev: a free, open-source IPTV player for **Android TV, Google TV and Amazon Fire TV**, built with Kotlin and Jetpack Compose and designed for the remote control.
 
-A free, open-source IPTV player for **Android TV, Google TV and Amazon Fire TV**, built with Kotlin and Jetpack Compose and designed for the remote control.
+IPVIO LNK follows the original releases and adds a few changes of its own (see below). It is **not** the official IPVIO Stream app; for that, go to the [original project](https://github.com/Emrodev/IPVIO-Stream).
 
 ![IPVIO Stream home screen](docs/screenshots/homescreen.jpg)
 
-> **IPVIO Stream does not provide any content.** It contains no channels, playlists, films or series. It is only a player for playlists that **you** add yourself (Xtream Codes login or M3U address). Only use sources that you are legally allowed to use.
+> **IPVIO LNK does not provide any content.** It contains no channels, playlists, films or series. It is only a player for playlists that **you** add yourself (Xtream Codes login or M3U address). Only use sources that you are legally allowed to use.
+
+## What is different in IPVIO LNK
+
+Based on IPVIO Stream 1.4.3:
+
+- **Own app:** app ID `com.ipvio.stream.lnk`, shown as "IPVIO LNK". It installs **next to** the original IPVIO Stream instead of replacing it; in-app updates come from this repository's releases.
+- **Channel keys:** the remote's channel up/down keys (P+ / P−, e.g. PROG on Sony remotes) switch to the next or previous channel in live TV, also in Boomer mode.
+- **Edit channel lists in a browser:** the phone-remote server has a new page `/lists` (same address and access code as the phone search). All live channels by category or search on the left, your list on the right: create, rename and delete lists, add, remove and reorder channels from a computer.
+- **Swiss German spelling:** the German texts use "ss" instead of "ß". Search still finds both spellings.
+
+Changes per version: [CHANGELOG.md](CHANGELOG.md).
 
 ## Install
 
-**Download:** [IPVIO-Stream.apk (latest release)](https://github.com/Emrodev/IPVIO-Stream/releases/latest/download/IPVIO-Stream.apk)
+**Download:** [IPVIO-Stream.apk (latest IPVIO LNK release)](https://github.com/LNKtwo/IPVIO-Stream/releases/latest/download/IPVIO-Stream.apk)
 
 **Fire TV / Android TV with the Downloader app:** enter
 ```
-https://github.com/Emrodev/IPVIO-Stream/releases/latest/download/IPVIO-Stream.apk
+https://github.com/LNKtwo/IPVIO-Stream/releases/latest/download/IPVIO-Stream.apk
 ```
 Allow "Install unknown apps" for Downloader (or your file manager) when asked, then install. No account or registration needed.
+
+To move your playlists and settings over from the original app, use its Wi-Fi transfer to another device, or export a backup there and restore it in IPVIO LNK.
 
 ## Features
 
@@ -134,9 +147,9 @@ app/src/main/res/font/                Outfit and Inter (SIL Open Font License)
 licenses/                             font licences
 ```
 
-## Support the project
+## Support the original project
 
-Hello, I'm Claude. If you enjoy using this project and want to help this wannabe developer keep building things (and occasionally understand what he's doing), feel free to support the project.
+IPVIO LNK is built on the work of Emrodev and the IPVIO Stream contributors. If you enjoy the app, please support the original project:
 
 - Ko-fi: https://ko-fi.com/ipviodude
 - PayPal: https://www.paypal.com/ncp/payment/EUSU4WAGRJNXY
@@ -145,9 +158,9 @@ IPVIO Stream stays free, ad-free and open source. Donations are voluntary and do
 
 ## License
 
-Copyright (C) 2026 IPVIO Stream contributors
+Copyright (C) 2026 IPVIO Stream contributors; IPVIO LNK changes by LNKtwo
 
-IPVIO Stream is free software: you can redistribute it and/or modify it under the terms of the **GNU General Public License version 3** (see [LICENSE](LICENSE)). The GPL is required because the app includes the GPL-3.0 licensed FFmpeg audio decoder. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the libraries, fonts and services used.
+IPVIO Stream and IPVIO LNK are free software: you can redistribute it and/or modify it under the terms of the **GNU General Public License version 3** (see [LICENSE](LICENSE)). The GPL is required because the app includes the GPL-3.0 licensed FFmpeg audio decoder. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the libraries, fonts and services used.
 
 The name "IPVIO" and the IPVIO logo identify the original project. If you publish a modified version, please use your own name and logo so that users are not confused.
 
