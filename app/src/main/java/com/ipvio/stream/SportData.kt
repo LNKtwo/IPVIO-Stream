@@ -70,6 +70,10 @@ object SportData {
         League("LaLiga", "soccer/esp.1", "Fussball"),
         League("Serie A", "soccer/ita.1", "Fussball"),
         League("Ligue 1", "soccer/fra.1", "Fussball"),
+        // IPVIO LNK: Turkish, Swiss and Portuguese top leagues (same ESPN scoreboard as the others)
+        League("Süper Lig", "soccer/tur.1", "Fussball"),
+        League("Super League", "soccer/sui.1", "Fussball"),
+        League("Liga Portugal", "soccer/por.1", "Fussball"),
         League("Champions League", "soccer/uefa.champions", "Fussball"),
         League("Europa League", "soccer/uefa.europa", "Fussball"),
         // Wishbox: North American leagues (same ESPN scoreboard as the others)

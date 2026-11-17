@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+## 1.4.3-lnk3 (versionCode 12)
+- Sport: new leagues Süper Lig (Turkey), Super League (Switzerland) and Liga Portugal, with scores, tables and favorite teams like the other football leagues
+
 ## 1.4.3-lnk2 (versionCode 11)
 - German texts in Swiss spelling: "ss" instead of "ß" (e.g. "Grösse", "schliessen"). Search and sport detection still match both spellings in playlist names
 
