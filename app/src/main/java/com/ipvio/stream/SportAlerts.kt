@@ -112,17 +112,22 @@ object SportAlerts {
         SportFavs.init(c)
         val last = HashMap<String, Snap>()
         val soonDone = HashSet<String>()
+        var wait: Long
         coroutineScope {
             while (true) {
                 if ((enabled || miniOn) && (SportFavs.keys.isNotEmpty() || pinned.isNotEmpty())) {
                     val ymd = SportData.ymd(0, General.zone())
                     val favOn = SportFavs.keys.isNotEmpty()
-                    // Leagues of your teams plus the leagues of the games picked by hand
-                    val leagues = ((if (favOn) SportData.LEAGUES.filter { it.kind == SportData.KIND_TEAM } else emptyList()) +
+                    // Leagues of your teams (only their sport, only leagues switched on) plus the leagues of the games picked by hand
+                    SportLeagues.init(c)
+                    SportHubFavs.init(c)
+                    val favSports = SportFavs.keys.map { k -> SportHubFavs.teams[k]?.let { SportData.LEAGUES.firstOrNull { l -> l.path == it.path }?.sport } }
+                    val leagues = (SportAlertsLogic.favLeagues(SportData.LEAGUES, favSports, SportLeagues::on) +
                         pinned.mapNotNull { SportData.league(it.substringBefore('|')) }).distinct()
                     val games = leagues.flatMap { l -> SportData.fetch(l, ymd) }.distinctBy { it.key }
                         .filter { (favOn && SportFavs.isFavGame(it)) || it.key in pinned }
                     val now = System.currentTimeMillis() / 1000
+                    wait = SportAlertsLogic.nextDelayMs(games.map { it.state to it.start }, now)
                     // Picked games first in the window; a finished picked game is removed again
                     live = games.filter { it.state == 1 }.sortedBy { if (it.key in pinned) 0 else 1 }
                     val over = games.filter { it.state == 2 && it.key in pinned }.map { it.key }
@@ -145,8 +150,8 @@ object SportAlerts {
                             launch { post(Alert(Lang.tr("Punkte!"), line), delaySec) }
                         }
                     }
-                } else { last.clear(); live = emptyList() }
-                delay(if (live.isNotEmpty()) 30_000L else 60_000L)
+                } else { last.clear(); live = emptyList(); wait = SportAlertsLogic.SOON_MS }
+                delay(wait)
             }
         }
     }

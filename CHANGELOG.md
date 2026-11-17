@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+## 1.4.3-lnk4 (versionCode 13)
+- Less lag on small sticks with favorite teams: the sport alerts in the background ask only the leagues of your teams' sports (and only leagues switched on in the sports area) instead of every team league, every 5 minutes when none of your games is on or about to start (1 minute shortly before, 30 seconds during a game) instead of every minute
+
 ## 1.4.3-lnk3 (versionCode 12)
 - Sport: new leagues Süper Lig (Turkey), Super League (Switzerland) and Liga Portugal, with scores, tables and favorite teams like the other football leagues
 
