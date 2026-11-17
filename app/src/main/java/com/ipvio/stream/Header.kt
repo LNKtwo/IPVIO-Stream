@@ -205,9 +205,9 @@ private fun ViewButton() {
                     verticalArrangement = Arrangement.spacedBy(dpx(14))
                 ) {
                     Text("Ansicht", color = Color.White, fontSize = spx(20), fontWeight = FontWeight.Bold)
-                    Text("Kartengröße", color = Muted, fontSize = spx(14))
+                    Text("Kartengrösse", color = Muted, fontSize = spx(14))
                     Row(horizontalArrangement = Arrangement.spacedBy(dpx(8))) {
-                        listOf("Klein", "Normal", "Groß").forEachIndexed { i, l ->
+                        listOf("Klein", "Normal", "Gross").forEachIndexed { i, l ->
                             ChoiceChip(l, General.cardSize == i, if (i == General.cardSize) Modifier.focusRequester(first) else Modifier) {
                                 General.setCardView(ctx, i, General.cardArt)
                             }
@@ -225,13 +225,13 @@ private fun ViewButton() {
                             ChoiceChip(l, General.previewStyle == i, Modifier) { General.setPreviewStyle(ctx, i) }
                         }
                     }
-                    Text("Schriftgröße (gilt für die ganze App)", color = Muted, fontSize = spx(14))
+                    Text("Schriftgrösse (gilt für die ganze App)", color = Muted, fontSize = spx(14))
                     Row(horizontalArrangement = Arrangement.spacedBy(dpx(8))) {
                         General.TEXT_SCALES.forEachIndexed { i, l ->
                             ChoiceChip(l, General.textScaleIdx == i, Modifier) { General.setTextScale(ctx, i) }
                         }
                     }
-                    Text("Zurück schließt dieses Fenster", color = Muted, fontSize = spx(13))
+                    Text("Zurück schliesst dieses Fenster", color = Muted, fontSize = spx(13))
                 }
             }
         }

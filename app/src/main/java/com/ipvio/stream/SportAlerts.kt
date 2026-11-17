@@ -75,7 +75,7 @@ object SportAlerts {
     /** When setting up, the window shows an example even if nothing is running. */
     var preview by mutableStateOf(false)
     val POS_NAMES = listOf("Oben links", "Oben rechts", "Unten links", "Unten rechts")
-    val SIZE_NAMES = listOf("Klein", "Normal", "Groß")
+    val SIZE_NAMES = listOf("Klein", "Normal", "Gross")
     private var inited = false
     private fun prefs(c: Context) = Profiles.sp(c, "ipvio_sportalerts")
 
@@ -238,11 +238,11 @@ fun ScoreOverlayDialog(onClose: () -> Unit) {
                     row("Anordnung") { SportAlerts.LAYOUT_NAMES.forEachIndexed { i, n -> FilterPill(n, SportAlerts.miniLayout == i) { SportAlerts.setMini(ctx, layout = i) } } }
                 }
                 androidx.compose.foundation.layout.FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    row("Größe") { SportAlerts.SIZE_NAMES.forEachIndexed { i, n -> FilterPill(n, SportAlerts.miniSize == i) { SportAlerts.setMini(ctx, size = i) } } }
+                    row("Grösse") { SportAlerts.SIZE_NAMES.forEachIndexed { i, n -> FilterPill(n, SportAlerts.miniSize == i) { SportAlerts.setMini(ctx, size = i) } } }
                 }
                 androidx.compose.foundation.layout.Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     if (SportAlerts.pinned.isNotEmpty()) FilterPill("Ausgewählte Spiele entfernen", false) { SportAlerts.clearPins(ctx) }
-                    FilterPill("Schließen", false) { onClose() }
+                    FilterPill("Schliessen", false) { onClose() }
                 }
             }
         }

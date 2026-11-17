@@ -77,7 +77,7 @@ Läuft jetzt¦Loopt nu
 In {#0} Min¦Over {#0} min
 Antippen öffnet den Sender¦Aantikken opent de zender
 Umschalten¦Overschakelen
-Schließen¦Sluiten
+Schliessen¦Sluiten
 Eigene Senderlisten¦Eigen zenderlijsten
 Noch keine eigenen Listen.¦Nog geen eigen lijsten.
 Zum Beginn¦Naar het begin
@@ -143,7 +143,7 @@ Automatische Genres, Kategorien¦Automatische genres, categorieën
 Verwalten, Sprachen, Aktualisieren¦Beheren, talen, bijwerken
 Sprachen der Inhalte öffnen¦Talen van de inhoud openen
 Welche Sprachen geladen werden, stellst du unter „Playlists“ ein – das bestimmt, was aus der Playlist geladen wird.¦Welke talen worden geladen, stel je in onder „Playlists” – dat bepaalt wat uit de playlist wordt geladen.
-Deine Bibliothek ist für automatische Genres zu groß (über 60.000 Filme und Serien). Es werden die Kategorien deines Anbieters verwendet. Blende unter „Playlists“ > „Sprachen der Inhalte“ Sprachen aus, die du nicht brauchst – dann passt es wieder.¦Je bibliotheek is te groot voor automatische genres (meer dan 60.000 films en series). De categorieën van je aanbieder worden gebruikt. Verberg onder „Playlists” > „Talen van de inhoud” talen die je niet nodig hebt – dan past het weer.
+Deine Bibliothek ist für automatische Genres zu gross (über 60.000 Filme und Serien). Es werden die Kategorien deines Anbieters verwendet. Blende unter „Playlists“ > „Sprachen der Inhalte“ Sprachen aus, die du nicht brauchst – dann passt es wieder.¦Je bibliotheek is te groot voor automatische genres (meer dan 60.000 films en series). De categorieën van je aanbieder worden gebruikt. Verberg onder „Playlists” > „Talen van de inhoud” talen die je niet nodig hebt – dan past het weer.
 Alle an¦Alles aan
 Alle aus¦Alles uit
 Übernehmen und laden¦Toepassen en laden
@@ -176,9 +176,9 @@ Heute¦Vandaag
 Gestern¦Gisteren
 Zu Favoriten hinzugefügt¦Aan favorieten toegevoegd
 Aus Favoriten entfernt¦Uit favorieten verwijderd
-Links/Rechts = Spalte  ·  Zurück schließt¦Links/rechts = kolom  ·  Terug sluit
-laufender Sender, Kategorien, schließen¦lopende zender, categorieën, sluiten
-Zurück: zum laufenden Sender, dann zu den Kategorien, dann schließen.¦Terug: naar de lopende zender, dan naar de categorieën, dan sluiten.
+Links/Rechts = Spalte  ·  Zurück schliesst¦Links/rechts = kolom  ·  Terug sluit
+laufender Sender, Kategorien, schliessen¦lopende zender, categorieën, sluiten
+Zurück: zum laufenden Sender, dann zu den Kategorien, dann schliessen.¦Terug: naar de lopende zender, dan naar de categorieën, dan sluiten.
 Tag¦Dag
 Beispieltext¦Voorbeeldtekst
 Bilder bei Filmen und Serien¦Afbeeldingen bij films en series
@@ -187,19 +187,19 @@ Cover¦Cover
 Favorit¦Favoriet
 Favoriten & Listen¦Favorieten & lijsten
 Intro-Zeiten stammen aus der Community-Datenbank TheIntroDB und gibt es nicht für jede Serie. Die Stream-Info erscheint nur bei Filmen und Serien.¦Introtijden komen uit de communitydatabase TheIntroDB en zijn er niet voor elke serie. De streaminfo verschijnt alleen bij films en series.
-Kartengröße¦Kaartgrootte
+Kartengrösse¦Kaartgrootte
 Markiere eine Einstellung, um sie hier zu sehen.¦Markeer een instelling om die hier te zien.
 Noch keine Favoriten. Auf einem Sender OK gedrückt halten, bei Filmen und Serien auf der Detailseite „Zu Favoriten“ wählen.¦Nog geen favorieten. Houd OK ingedrukt op een zender; kies bij films en series op de detailpagina „Naar favorieten”.
-Sender, Kategorie, schließen¦Zender, categorie, sluiten
+Sender, Kategorie, schliessen¦Zender, categorie, sluiten
 Szenenbild¦Scènebeeld
 Zoom 115 %¦Zoom 115 %
 Zoom 133 %¦Zoom 133 %
-Zurück schließt dieses Fenster¦Terug sluit dit venster
-Zurück: zum Sender, dann zur Kategorie, dann schließen.¦Terug: naar de zender, dan naar de categorie, dan sluiten.
+Zurück schliesst dieses Fenster¦Terug sluit dit venster
+Zurück: zum Sender, dann zur Kategorie, dann schliessen.¦Terug: naar de zender, dan naar de categorie, dan sluiten.
 Oben findest du alle Filme, Neuheiten, Top bewertet und Kategorien.¦Bovenaan vind je alle films, nieuwtjes, best beoordeeld en categorieën.
 Oben findest du alle Serien, Neuheiten, Top bewertet und Kategorien.¦Bovenaan vind je alle series, nieuwtjes, best beoordeeld en categorieën.
 Titel pro Zeile¦Titels per rij
-Schriftgröße (gilt für die ganze App)¦Lettergrootte (geldt voor de hele app)
+Schriftgrösse (gilt für die ganze App)¦Lettergrootte (geldt voor de hele app)
 Keine Benachrichtigungen¦Geen meldingen
 Erinnerung setzen¦Herinnering instellen
 Ansehen¦Bekijken
@@ -230,7 +230,7 @@ Jetzt ansehen¦Nu bekijken
 Sender hinzufügen¦Zender toevoegen
 Fertig¦Klaar
 Live TV · Jetzt und in den nächsten Stunden¦Live-tv · Nu en de komende uren
-Zurück: Sendung, Sender, Kategorie, dann schließen¦Terug: uitzending, zender, categorie, dan sluiten
+Zurück: Sendung, Sender, Kategorie, dann schliessen¦Terug: uitzending, zender, categorie, dan sluiten
 OK = ansehen  ·  halten = Favorit  ·  Links = Kategorien¦OK = bekijken  ·  ingedrukt houden = favoriet  ·  Links = categorieën
 Anzeigen¦Tonen
 Schrift: Deckkraft¦Tekst: dekking
@@ -240,7 +240,7 @@ Technik-Info¦Technische info
 Abspann automatisch überspringen¦Aftiteling automatisch overslaan
 Uhrzeit: Ort¦Tijd: plaats
 Uhrzeit: Schrift-Deckkraft¦Tijd: tekstdekking
-Uhrzeit: Größe¦Tijd: grootte
+Uhrzeit: Grösse¦Tijd: grootte
 Uhrzeit: Hintergrund¦Tijd: achtergrond
 Uhrzeit: Hintergrund-Deckkraft¦Tijd: achtergronddekking
 """

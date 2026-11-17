@@ -274,7 +274,7 @@ object SportPlayer {
             "Nummer" to a.optString("displayJersey"),
             "Alter" to a.optString("age").takeIf { it != "0" }.orEmpty(),
             "Geboren" to a.optString("displayDOB"),
-            "Größe" to a.optString("displayHeight"),
+            "Grösse" to a.optString("displayHeight"),
             "Gewicht" to a.optString("displayWeight"),
             "Nation" to a.optString("citizenship")
         ).filter { it.second.isNotBlank() }
@@ -850,7 +850,7 @@ internal fun HubNewsRow(leagues: List<SportData.League>) {
                 Text(raw = true, text = a.league, color = Accent2, fontSize = spx(14), fontWeight = FontWeight.Bold)
                 Text(raw = true, text = a.headline, color = Tok.TextHi, fontSize = spx(24), fontWeight = FontWeight.ExtraBold)
                 if (a.text.isNotBlank()) Text(raw = true, text = a.text, color = Tok.TextMid, fontSize = spx(17))
-                PillButton("Schließen", Modifier.focusRequester(first)) { open = null }
+                PillButton("Schliessen", Modifier.focusRequester(first)) { open = null }
             }
         }
     }

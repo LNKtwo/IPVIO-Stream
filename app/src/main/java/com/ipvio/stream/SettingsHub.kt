@@ -46,7 +46,7 @@ private class Cat(val icon: AIcon, val title: String, val sub: String)
 private val CATS = listOf(
     Cat(AIcon.Gear, "Allgemein", "Start, Beenden, Autostart"),
     Cat(AIcon.Globe, "Sprache & Region", "Sprache, Uhrzeit, Zeitzone"),
-    Cat(AIcon.Grid, "Ansicht", "Kartengröße, Seitenleiste, Raster"),
+    Cat(AIcon.Grid, "Ansicht", "Kartengrösse, Seitenleiste, Raster"),
     Cat(AIcon.Sparkle, "Design und Farbe", "Farben, Schrift, Animationen"),
     Cat(AIcon.Lists, "Menü", "Reihenfolge und Einträge"),
     Cat(AIcon.Play, "Player", "Spulen, Intro, Qualität, defekte Links"),
@@ -60,7 +60,7 @@ private val CATS = listOf(
     Cat(AIcon.Storage, "Speicher", "Cache, Verlauf, Fortsetzen"),
     Cat(AIcon.Pulse, "Diagnose", "Status und Fehlersuche"),
     Cat(AIcon.Download, "Listen importieren", "Letterboxd, MyAnimeList, Trakt"),
-    Cat(AIcon.Live, "Boomer Mode", "Ganz einfach: große Kacheln zum Auswählen"),
+    Cat(AIcon.Live, "Boomer Mode", "Ganz einfach: grosse Kacheln zum Auswählen"),
     Cat(AIcon.Sliders, "Startseite anpassen", "Reihen und Widgets wählen und ordnen"),
     Cat(AIcon.Info, "Über IPVIO Stream", "Version, Quellen, Updates"),
     // Resets every settings tab at once (each tab 0..8 has its own reset for just that tab)
@@ -498,7 +498,7 @@ private fun GeneralPage(ctx: Context) {
 
     SectionTitle("Bedienung")
     ToggleRow("Tastatur des Geräts in der Suche", "Aus: die eingebaute Tastatur der App. An: die Tastatur deines Geräts (z. B. Gboard) mit allen Sprachen, Sprachfunktion und Einfügen. Mit OK auf das Suchfeld wird sie geöffnet.", AppSettings.systemKeyboard) { AppSettings.setSystemKeyboard(ctx, it) }
-    ToggleRow("Beenden bestätigen", "Auf der Startseite muss „Zurück“ zweimal gedrückt werden, damit die App nicht aus Versehen schließt.", General.confirmExit) { General.setConfirmExit(ctx, it) }
+    ToggleRow("Beenden bestätigen", "Auf der Startseite muss „Zurück“ zweimal gedrückt werden, damit die App nicht aus Versehen schliesst.", General.confirmExit) { General.setConfirmExit(ctx, it) }
     // Phone/tablet: landscape (the UI is built for the TV)
     if (MobilePrefs.isMobile(ctx)) {
         val act = generateSequence<Context>(ctx) { (it as? android.content.ContextWrapper)?.baseContext }.filterIsInstance<android.app.Activity>().firstOrNull()
@@ -697,8 +697,8 @@ private fun PlayerPage(ctx: Context) {
         SelectRow("Uhrzeit: Schrift-Deckkraft", "${AppSettings.clockOpacity} %", ops.map { "$it %" }, ops.indexOf(AppSettings.clockOpacity).let { if (it < 0) 5 else it }) {
             AppSettings.setClock(ctx, true, AppSettings.clockPos, ops[it], AppSettings.clockSize)
         }
-        val sizes = listOf("Klein", "Mittel", "Groß")
-        SelectRow("Uhrzeit: Größe", sizes[AppSettings.clockSize], sizes, AppSettings.clockSize) {
+        val sizes = listOf("Klein", "Mittel", "Gross")
+        SelectRow("Uhrzeit: Grösse", sizes[AppSettings.clockSize], sizes, AppSettings.clockSize) {
             AppSettings.setClock(ctx, true, AppSettings.clockPos, AppSettings.clockOpacity, it)
         }
         ToggleRow("Uhrzeit: Hintergrund", "Dunkler Kasten hinter der Uhr. Aus = nur die Zahlen.", AppSettings.clockBg) {
@@ -713,9 +713,9 @@ private fun PlayerPage(ctx: Context) {
         Hint("Die Uhr folgt der Zeitzone und dem 12/24-Stunden-Format aus den Einstellungen. Im Player geht es auch über Einstellungen > Uhrzeit.")
     }
     SectionTitle("Netzwerk und Bildrate")
-    val bufNames = listOf("Automatisch", "Normal", "Groß", "Sehr groß")
+    val bufNames = listOf("Automatisch", "Normal", "Gross", "Sehr gross")
     SelectRow("Puffer (bei langsamem Internet)", bufNames[AppSettings.bufferMode], bufNames, AppSettings.bufferMode) { AppSettings.setBufferMode(ctx, it) }
-    Hint("Ein größerer Puffer lädt mehr Film im Voraus und verhindert Ruckeln bei schwacher Leitung; dafür dauert der Start etwas länger und es wird mehr Speicher gebraucht. „Automatisch“ beginnt normal und vergrößert den Puffer von selbst, wenn es mehrfach ruckelt (aktuell Stufe ${AppSettings.bufferLearned}). Gilt ab dem nächsten gestarteten Titel.")
+    Hint("Ein grösserer Puffer lädt mehr Film im Voraus und verhindert Ruckeln bei schwacher Leitung; dafür dauert der Start etwas länger und es wird mehr Speicher gebraucht. „Automatisch“ beginnt normal und vergrössert den Puffer von selbst, wenn es mehrfach ruckelt (aktuell Stufe ${AppSettings.bufferLearned}). Gilt ab dem nächsten gestarteten Titel.")
     ToggleRow("Bildrate anpassen", "Passt die Bildwiederholrate des Fernsehers an den Film an (z. B. 24 Bilder), wenn der Fernseher das ohne Bildaussetzer kann. Bei Fire TV zusätzlich in den Geräteeinstellungen „Originale Bildrate anpassen“ prüfen.", AppSettings.autoFps) {
         AppSettings.setAutoFps(ctx, it)
     }
@@ -723,7 +723,7 @@ private fun PlayerPage(ctx: Context) {
     SectionTitle("Zusatzbild")
     DualPrefs.init(ctx)
     SelectRow("Anordnung", DualPrefs.ARRANGE_NAMES[DualPrefs.split], DualPrefs.ARRANGE_NAMES, DualPrefs.split) { DualPrefs.set(ctx, split = it) }
-    SelectRow("Fenstergröße", DualPrefs.SIZE_NAMES[DualPrefs.size], DualPrefs.SIZE_NAMES, DualPrefs.size) { DualPrefs.set(ctx, size = it) }
+    SelectRow("Fenstergrösse", DualPrefs.SIZE_NAMES[DualPrefs.size], DualPrefs.SIZE_NAMES, DualPrefs.size) { DualPrefs.set(ctx, size = it) }
     SelectRow("Position", DualPrefs.CORNER_NAMES[DualPrefs.corner], DualPrefs.CORNER_NAMES, DualPrefs.corner) { DualPrefs.set(ctx, corner = it) }
     Hint("Gilt für Bild-in-Bild. Deine Auswahl wird gespeichert.")
     SourceSettingsSection(ctx)
@@ -829,7 +829,7 @@ private fun DesignPage(ctx: Context) {
             ChoiceChip(n, Look.motion == i, onFocus = { hover(it, Lang.tr(n)) { DesignPreview.motion = i } }) { save(motion = i) }
         }
     }
-    SectionTitle("Anzeigegröße")
+    SectionTitle("Anzeigegrösse")
     Look.SCALES.indices.chunked(3).forEach { row ->
         Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             row.forEach { i ->
@@ -841,8 +841,8 @@ private fun DesignPage(ctx: Context) {
     val cfg = LocalConfiguration.current
     val factor = ThemeMath.uiFactor(Look.uiScale, cfg.screenWidthDp, cfg.screenHeightDp)
     Hint("Oberfläche aktuell ×" + String.format(java.util.Locale.US, "%.2f", factor) + " (Bildschirm " + cfg.screenWidthDp + " dp breit).")
-    Hint("Standard ist 85 %: mehr Inhalt, Elemente bleiben gut lesbar. „Automatisch“ vergrößert die App auf sehr breiten Bildschirmen.")
-    Hint("Animationen „Aus“ schaltet die Vergrößerung beim Fokus ab, „Dezent“ macht sie schwächer. Das schont schwache Geräte.")
+    Hint("Standard ist 85 %: mehr Inhalt, Elemente bleiben gut lesbar. „Automatisch“ vergrössert die App auf sehr breiten Bildschirmen.")
+    Hint("Animationen „Aus“ schaltet die Vergrösserung beim Fokus ab, „Dezent“ macht sie schwächer. Das schont schwache Geräte.")
 
     SectionTitle("Bildschirm anpassen")
     var calibrate by remember { mutableStateOf(false) }
@@ -860,13 +860,13 @@ private fun DesignPage(ctx: Context) {
         }
     }
     Hint("Outfit (Standard) und Inter sind in die App eingebaut, die übrigen Schriften stammen von deinem Gerät.")
-    SectionTitle("Schriftgröße")
+    SectionTitle("Schriftgrösse")
     Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
         General.TEXT_SCALES.forEachIndexed { i, n ->
             ChoiceChip(n, General.textScaleIdx == i, onFocus = { hover(it, Lang.tr(n)) { DesignPreview.textScale = i } }) { General.setTextScale(ctx, i) }
         }
     }
-    Hint("Fünf klare Systemschriften, die auf jedem Gerät vorhanden sind. Die Schriftgröße wirkt zusätzlich zur Anzeigegröße.")
+    Hint("Fünf klare Systemschriften, die auf jedem Gerät vorhanden sind. Die Schriftgrösse wirkt zusätzlich zur Anzeigegrösse.")
     }
 }
 
@@ -932,7 +932,7 @@ private fun AudioPage(ctx: Context) {
     SubtitlePreview(pSize ?: AppSettings.subSize, pColor ?: AppSettings.subColor, pBg ?: AppSettings.subBg, pEdge ?: AppSettings.subEdge)
     fun setSub(size: Int = AppSettings.subSize, color: Int = AppSettings.subColor, bg: Int = AppSettings.subBg, edge: Int = AppSettings.subEdge) =
         AppSettings.setSub(ctx, size, color, bg, edge)
-    SubChoiceRow("Größe", SubStyle.SIZES.map { it.first }, AppSettings.subSize, { i -> pSize = i }) { setSub(size = it) }
+    SubChoiceRow("Grösse", SubStyle.SIZES.map { it.first }, AppSettings.subSize, { i -> pSize = i }) { setSub(size = it) }
     SubChoiceRow("Farbe", SubStyle.COLORS.map { it.first }, AppSettings.subColor, { i -> pColor = i }) { setSub(color = it) }
     SubChoiceRow("Hintergrund", SubStyle.BGS.map { it.first }, AppSettings.subBg, { i -> pBg = i }) { setSub(bg = it) }
     SubChoiceRow("Rand", SubStyle.EDGES, AppSettings.subEdge, { i -> pEdge = i }) { setSub(edge = it) }
@@ -985,7 +985,7 @@ private fun FilterPage(ctx: Context, onLanguages: () -> Unit) {
     ToggleRow("Automatische Genres", "Aus = Kategorien deines Anbieters (Standard). Umschalten geht auch direkt in der Ansicht „Kategorien“.", AppSettings.ipvioFilter) { AppSettings.set(ctx, it) }
     val all = PlaylistStore.channels
     val vod = remember(all) { all.count { it.kind != Kind.LIVE } }
-    if (!Classifier.supported(vod)) Hint("Deine Bibliothek ist für automatische Genres zu groß (über 60.000 Filme und Serien). Es werden die Kategorien deines Anbieters verwendet. Blende unter „Playlists“ > „Sprachen der Inhalte“ Sprachen aus, die du nicht brauchst – dann passt es wieder.")
+    if (!Classifier.supported(vod)) Hint("Deine Bibliothek ist für automatische Genres zu gross (über 60.000 Filme und Serien). Es werden die Kategorien deines Anbieters verwendet. Blende unter „Playlists“ > „Sprachen der Inhalte“ Sprachen aus, die du nicht brauchst – dann passt es wieder.")
     Hint("Automatische Genres sortieren Titel nach Genre (Anime = Animation aus Japan). Beim ersten Mal dauert das einige Minuten, danach ist alles gespeichert. Aus = die Kategorien deines Anbieters in der Reihenfolge deines Anbieters. In der Ansicht „Kategorien“ kannst du jederzeit zwischen beiden wechseln.")
     if (!MetaRepo.enabled()) Text("Automatische Genres brauchen einen TMDB-Schlüssel (Einstellungen > API-Schlüssel).", color = DS.Danger, fontSize = 15.sp)
     if (Classifier.running) Text("${Classifier.phase} werden geladen … ${Classifier.progress} / ${Classifier.total}", color = Accent2, fontSize = 15.sp)
@@ -1133,7 +1133,7 @@ private fun IgnoredGroupsSection(d: IgnoreDraft) {
         }
     }
     SectionTitle("Gruppen ignorieren")
-    Hint("Titel und Sender sind nach der Kennung deines Anbieters gebündelt (z. B. „TR |“, „[EN]“, „AR:“). Schalte Bündel aus, die du nicht brauchst: Sie verschwinden sofort überall, ohne die Playlist neu zu laden. Ausgeschaltet heißt ignoriert. Hilft dort, wo der Sprachfilter eine Kennung nicht erkennt.")
+    Hint("Titel und Sender sind nach der Kennung deines Anbieters gebündelt (z. B. „TR |“, „[EN]“, „AR:“). Schalte Bündel aus, die du nicht brauchst: Sie verschwinden sofort überall, ohne die Playlist neu zu laden. Ausgeschaltet heisst ignoriert. Hilft dort, wo der Sprachfilter eine Kennung nicht erkennt.")
     if (stats.isEmpty() || stats.values.all { it.isEmpty() }) { Hint("Noch keine Playlist geladen."); return }
     IgnoreDraftBar(d)
     if (d.keys.isNotEmpty()) {
@@ -1184,13 +1184,13 @@ private fun LanguageFilterSection(ctx: Context) {
     SectionTitle("Sprachen der Inhalte")
     Hint("Blende Sprachen aus, die du nicht brauchst – sie verschwinden dann überall: Startseite, Filme, Serien, Live-TV und Suche. Erkannt wird die Kennzeichnung deines Anbieters (z. B. „DE |“, „[TR]“, „GERMAN“). Das ist bei IPTV-Anbietern die Sprache der Tonspur, nicht das Herkunftsland des Films.")
     if (list.isEmpty()) { Hint("Noch keine Playlist geladen."); return }
-    Hint("Ausgeblendete Sprachen werden gar nicht erst geladen. Das spart viel Arbeitsspeicher und macht große Playlists schneller.")
+    Hint("Ausgeblendete Sprachen werden gar nicht erst geladen. Das spart viel Arbeitsspeicher und macht grosse Playlists schneller.")
     if (PlaylistStore.loading) {
         val t = PlaylistStore.totalBytes
         val pct = if (t > 0) "  " + (PlaylistStore.bytesRead * 100 / t).coerceIn(0, 100) + " %" else ""
         Text(Lang.tr("Sprachauswahl wird angewendet …") + pct, color = Accent2, fontSize = 15.sp, raw = true)
     } else if (PlaylistStore.error == PlaylistStore.MSG_TOO_BIG) Text(PlaylistStore.MSG_TOO_BIG, color = DS.Danger, fontSize = 15.sp)
-    if (big) Text("Diese Auswahl ist sehr groß für dieses Gerät – das Laden kann lange dauern.", color = DS.Gold, fontSize = 15.sp)
+    if (big) Text("Diese Auswahl ist sehr gross für dieses Gerät – das Laden kann lange dauern.", color = DS.Gold, fontSize = 15.sp)
     val mine = Lang.code()
     Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         PillButton("Nur meine Sprache") { edit(list.map { it.first }.filter { it != mine && it != LangTagLogic.UNKNOWN }.toSet()) }
@@ -1232,9 +1232,9 @@ private fun LivePage(ctx: Context) {
     Text("Programm bei $xtream von ${counts.first} Sendern möglich", color = Muted, fontSize = 15.sp)
     Text("XMLTV: ${Xmltv.status}", color = Accent2, fontSize = 15.sp)
     ToggleRow("Sender-Qualitäten bündeln", "Derselbe Sender in 8K, 4K, FHD, HD und SD erscheint als eine Zeile. OK startet die beste Qualität, die anderen wählst du im Menü des Senders (OK gedrückt halten).", General.bundleLive) { General.setBundleLive(ctx, it) }
-    val rowSizes = listOf("Klein", "Normal", "Groß")
+    val rowSizes = listOf("Klein", "Normal", "Gross")
     SelectRow("Senderzeilen", rowSizes[General.channelRowSize], rowSizes, General.channelRowSize) { General.setChannelRowSize(ctx, it) }
-    Hint("Kleinere Zeilen zeigen mehr Sender auf einmal, das hilft auf großen Fernsehern. Größere Zeilen lassen sich aus der Ferne leichter lesen.")
+    Hint("Kleinere Zeilen zeigen mehr Sender auf einmal, das hilft auf grossen Fernsehern. Grössere Zeilen lassen sich aus der Ferne leichter lesen.")
     Hint("Die App sucht die Programmdaten automatisch (Xtream-Schnittstelle oder XMLTV-Adresse aus der Playlist). Wenn dein Anbieter eine eigene XMLTV-Adresse nennt, trage sie hier ein.")
     Field(url, { url = it }, "https://…/xmltv.php?username=…&password=…")
     Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {

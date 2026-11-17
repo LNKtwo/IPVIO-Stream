@@ -750,7 +750,7 @@ fun PlayerScreen(req: PlayReq, zapList: List<Item>, liveAll: List<Item>, seriesI
                         // Automatic: enlarge the buffer for the next playback (slow internet)
                         val before = AppSettings.bufferLearned
                         AppSettings.learnBuffer(ctx)
-                        if (AppSettings.bufferLearned != before) notice = "Ruckelt – Puffer wird beim nächsten Start größer"
+                        if (AppSettings.bufferLearned != before) notice = "Ruckelt – Puffer wird beim nächsten Start grösser"
                         if (!cur.live) switchSource("Ruckelt") else stalls = emptyList()
                     }
                 }
@@ -1621,7 +1621,7 @@ fun PlayerScreen(req: PlayReq, zapList: List<Item>, liveAll: List<Item>, seriesI
 
         // ---------------------------------------------------------------- Menus
         if (panel != Panel.NONE) {
-            val back = if (panelParent != Panel.NONE) "Links = zurück" else "Zurück schließt das Menü"
+            val back = if (panelParent != Panel.NONE) "Links = zurück" else "Zurück schliesst das Menü"
             when (panel) {
                 Panel.TRACKS -> TracksPanel(
                     player, tracksVer, { tracksVer++; h.postDelayed({ rememberTracks() }, 400) }, panelFocus, subsFocus,
@@ -1641,7 +1641,7 @@ fun PlayerScreen(req: PlayReq, zapList: List<Item>, liveAll: List<Item>, seriesI
 
                 Panel.SUBSTYLE -> PSimplePanel(440.dp, "Untertitel-Stil", back, { closePanel() }, leftBack = panelParent != Panel.NONE) {
                     Column(verticalArrangement = Arrangement.spacedBy(PT.RowGap)) {
-                        PPanelRow("Größe", false, Modifier.focusRequester(panelFocus), trailing = SubStyle.SIZES[AppSettings.subSize].first, chevron = true) {
+                        PPanelRow("Grösse", false, Modifier.focusRequester(panelFocus), trailing = SubStyle.SIZES[AppSettings.subSize].first, chevron = true) {
                             AppSettings.setSub(ctx, (AppSettings.subSize + 1) % SubStyle.SIZES.size, AppSettings.subColor, AppSettings.subBg, AppSettings.subEdge)
                         }
                         PPanelRow("Farbe", false, trailing = SubStyle.COLORS[AppSettings.subColor].first, chevron = true) {
@@ -1739,7 +1739,7 @@ fun PlayerScreen(req: PlayReq, zapList: List<Item>, liveAll: List<Item>, seriesI
 
                 Panel.CLOCK -> PSimplePanel(440.dp, "Uhrzeit im Bild", back, { closePanel() }, leftBack = panelParent != Panel.NONE) {
                     val poss = listOf("Oben rechts", "Oben links", "Unten rechts", "Unten links")
-                    val sizes = listOf("Klein", "Mittel", "Groß")
+                    val sizes = listOf("Klein", "Mittel", "Gross")
                     val ops = listOf(20, 30, 40, 50, 60, 70, 80, 90, 100)
                     Column(verticalArrangement = Arrangement.spacedBy(PT.RowGap)) {
                         ClockSample(Modifier.align(Alignment.CenterHorizontally))
@@ -1753,7 +1753,7 @@ fun PlayerScreen(req: PlayReq, zapList: List<Item>, liveAll: List<Item>, seriesI
                             val i = ops.indexOf(AppSettings.clockOpacity).let { if (it < 0) 5 else it }
                             AppSettings.setClock(ctx, AppSettings.clockOn, AppSettings.clockPos, ops[(i + 1) % ops.size], AppSettings.clockSize)
                         }
-                        PPanelRow("Größe", false, trailing = sizes[AppSettings.clockSize], chevron = true) {
+                        PPanelRow("Grösse", false, trailing = sizes[AppSettings.clockSize], chevron = true) {
                             AppSettings.setClock(ctx, AppSettings.clockOn, AppSettings.clockPos, AppSettings.clockOpacity, (AppSettings.clockSize + 1) % 3)
                         }
                         PPanelRow("Hintergrund", false, trailing = if (AppSettings.clockBg) "An" else "Aus", chevron = true) {
@@ -1791,7 +1791,7 @@ fun PlayerScreen(req: PlayReq, zapList: List<Item>, liveAll: List<Item>, seriesI
                             add(MenuEntry(21, "Anordnung", if (splitMode == 1) "Geteilt" else "Bild-in-Bild", false))
                             add(MenuEntry(22, "Ton von", if (audioOnSecond) "Zusatzbild" else "Hauptstream", false))
                             if (splitMode == 0) {
-                                add(MenuEntry(24, "Fenstergröße", DualPrefs.SIZE_NAMES[DualPrefs.size], false))
+                                add(MenuEntry(24, "Fenstergrösse", DualPrefs.SIZE_NAMES[DualPrefs.size], false))
                                 add(MenuEntry(25, "Position", DualPrefs.CORNER_NAMES[DualPrefs.corner], false))
                             }
                             add(MenuEntry(23, "Streams tauschen", null, false))

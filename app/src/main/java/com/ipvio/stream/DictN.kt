@@ -42,7 +42,7 @@ Wiederherstellen …¦Restoring …
 Bitte mindestens einen Bereich wählen.¦Please choose at least one area.
 Für die Playlists bitte oben das Sync-Passwort eingeben.¦To restore the playlists, enter the sync password above.
 Falsches Sync-Passwort. Es wurde nichts geändert.¦Wrong sync password. Nothing was changed.
-Die Sicherheitskopie ließ sich nicht anlegen. Es wurde nichts geändert.¦The safety copy could not be made. Nothing was changed.
+Die Sicherheitskopie liess sich nicht anlegen. Es wurde nichts geändert.¦The safety copy could not be made. Nothing was changed.
 Diese Sicherung ist ungültig.¦This backup is not valid.
 Vor der letzten Wiederherstellung ({0}) hat die App automatisch eine Sicherung angelegt.¦Before the last restore ({0}) the app automatically made a backup.
 Letzte Wiederherstellung rückgängig¦Undo last restore
@@ -52,7 +52,7 @@ Keine Verbindung zu Google. Bitte Internet prüfen.¦No connection to Google. Pl
 Google Drive meldet einen Fehler ({#0}).¦Google Drive reports an error ({#0}).
 Google Drive meldet einen Fehler.¦Google Drive reports an error.
 Diese Sicherung gibt es in Google Drive nicht mehr.¦This backup no longer exists in Google Drive.
-Diese Sicherung ist zu groß.¦This backup is too big.
+Diese Sicherung ist zu gross.¦This backup is too big.
 Unbekannter Fehler.¦Unknown error.
 Unbekannter Fehler: {0}¦Unknown error: {0}
 Die Anmeldung bei Google ist fehlgeschlagen: {0}¦Signing in to Google failed: {0}

@@ -250,7 +250,7 @@ fun SportTab(live: List<Item>, onPlay: (Item, List<Item>) -> Unit) {
                         Row(horizontalArrangement = Arrangement.spacedBy(dpx(8))) {
                             FilterPill(if (SportAlerts.miniOn) "Fenster: An" else "Fenster: Aus", SportAlerts.miniOn) { SportAlerts.setMini(ctx, on = !SportAlerts.miniOn) }
                             FilterPill(Lang.tr("Position") + ": " + Lang.tr(SportAlerts.POS_NAMES[SportAlerts.miniPos]), false) { SportAlerts.setMini(ctx, pos = (SportAlerts.miniPos + 1) % 4) }
-                            FilterPill(Lang.tr("Größe") + ": " + Lang.tr(SportAlerts.SIZE_NAMES[SportAlerts.miniSize]), false) { SportAlerts.setMini(ctx, size = (SportAlerts.miniSize + 1) % 3) }
+                            FilterPill(Lang.tr("Grösse") + ": " + Lang.tr(SportAlerts.SIZE_NAMES[SportAlerts.miniSize]), false) { SportAlerts.setMini(ctx, size = (SportAlerts.miniSize + 1) % 3) }
                         }
                         Row(horizontalArrangement = Arrangement.spacedBy(dpx(8))) {
                             FilterPill(if (SportAlerts.miniNames) "Logos und Namen" else "Nur Logos", false) { SportAlerts.setMini(ctx, names = !SportAlerts.miniNames) }

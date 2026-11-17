@@ -137,7 +137,7 @@ private fun LiveControls(ctx: Context) {
     FlowRow(horizontalArrangement = Arrangement.spacedBy(18.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
         when (ViewLive.tab) {
             0 -> {
-                LRow("Größe", listOf("Klein", "Normal", "Groß"), General.cardSize) { General.setCardView(ctx, it, General.cardArt) }
+                LRow("Grösse", listOf("Klein", "Normal", "Gross"), General.cardSize) { General.setCardView(ctx, it, General.cardArt) }
                 LRow("Bild", listOf("Cover", "Szenenbild"), General.cardArt) { General.setCardView(ctx, General.cardSize, it) }
                 LRow("Beim Markieren", listOf("Infos auf dem Poster", "Breites Szenenbild"), General.previewStyle) { General.setPreviewStyle(ctx, it) }
             }

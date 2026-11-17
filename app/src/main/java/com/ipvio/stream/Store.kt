@@ -32,8 +32,8 @@ object Langs {
 }
 
 object SubStyle {
-    val SIZES = listOf("Klein" to 0.7f, "Normal" to 1f, "Groß" to 1.3f, "Sehr groß" to 1.7f, "Riesig" to 2.1f)
-    val COLORS = listOf("Weiß" to 0xFFFFFFFFL, "Gelb" to 0xFFFFEB3BL, "Grün" to 0xFF69F0AEL, "Cyan" to 0xFF18FFFFL, "Pink" to 0xFFFF80ABL)
+    val SIZES = listOf("Klein" to 0.7f, "Normal" to 1f, "Gross" to 1.3f, "Sehr gross" to 1.7f, "Riesig" to 2.1f)
+    val COLORS = listOf("Weiss" to 0xFFFFFFFFL, "Gelb" to 0xFFFFEB3BL, "Grün" to 0xFF69F0AEL, "Cyan" to 0xFF18FFFFL, "Pink" to 0xFFFF80ABL)
     val BGS = listOf("Keiner" to 0x00000000L, "Halbtransparent" to 0x99000000L, "Schwarz" to 0xFF000000L)
     val EDGES = listOf("Kein", "Schatten", "Kontur")
 }

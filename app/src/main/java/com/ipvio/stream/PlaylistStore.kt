@@ -211,7 +211,7 @@ object PlaylistStore {
     private const val SPACE_RESERVE = 64L * 1024 * 1024
 
     const val MSG_CANCEL = "Laden abgebrochen. Deine Angaben bleiben gespeichert."
-    const val MSG_TOO_BIG = "Die gewählten Inhalte sind zu groß für den Speicher dieses Geräts. Bitte weniger Sprachen wählen."
+    const val MSG_TOO_BIG = "Die gewählten Inhalte sind zu gross für den Speicher dieses Geräts. Bitte weniger Sprachen wählen."
 
     /** Question for very large playlists: which languages should be loaded? */
     class LangAsk(val counts: Map<String, Int>, val bytes: Map<String, Long>, val preselect: Set<String>, val budget: Long) {

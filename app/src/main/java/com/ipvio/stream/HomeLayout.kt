@@ -81,7 +81,7 @@ open class BlockLayout(private val prefName: String, val blocks: List<LayoutBloc
 }
 
 private val HOME_BLOCKS = listOf(
-    LayoutBlock("hero", "Große Slideshow", "Großes Bild oben mit aktuellen Filmen und Serien", fixed = true),
+    LayoutBlock("hero", "Grosse Slideshow", "Grosses Bild oben mit aktuellen Filmen und Serien", fixed = true),
     LayoutBlock("tiles", "Kacheln", "Live TV, Filme, Serien, Favoriten und Meine Liste"),
     LayoutBlock("resume", "Weiterschauen", "Dort weitermachen, wo du aufgehört hast"),
     LayoutBlock("favch", "Meine Sender", "Deine Live-Favoriten als Reihe"),
@@ -102,7 +102,7 @@ private val HOME_BLOCKS = listOf(
 object HomeLayout : BlockLayout("ipvio_homelayout", HOME_BLOCKS, setOf("favch", "hist"))
 
 private val BOOMER_BLOCKS = listOf(
-    LayoutBlock("clock", "Große Uhr", "Uhrzeit und Datum, gut lesbar"),
+    LayoutBlock("clock", "Grosse Uhr", "Uhrzeit und Datum, gut lesbar"),
     LayoutBlock("ch", "Meine Sender", "Die Sender, die du ausgewählt hast (sonst die Live-Favoriten)"),
     LayoutBlock("resume", "Weiterschauen", "Filme und Serien dort fortsetzen, wo es aufgehört hat"),
     LayoutBlock("vod", "Meine Filme und Serien", "Die Filme und Serien, die du ausgewählt hast"),

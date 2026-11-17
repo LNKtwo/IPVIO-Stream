@@ -33,7 +33,7 @@ import androidx.compose.ui.window.DialogProperties
 object MultiViewLogic {
     const val GRID = 0   // two tiles of equal size side by side
     const val BIG = 1    // one large tile on the left, a smaller one on the right
-    val LAYOUT_NAMES = listOf("Zwei gleich groß", "Einer groß, einer klein")
+    val LAYOUT_NAMES = listOf("Zwei gleich gross", "Einer gross, einer klein")
 
     /** Number of tiles (two for now: more streams overload most boxes and many providers allow few connections). */
     const val SLOTS = 2
@@ -65,7 +65,7 @@ fun MultiViewScreen(live: List<Item>, onClose: () -> Unit) {
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(10.dp), verticalAlignment = Alignment.CenterVertically) {
                 Text("Mehrfachansicht", color = Color.White, fontSize = 20.sp, fontWeight = androidx.compose.ui.text.font.FontWeight.Bold)
                 SmallPill(MultiViewLogic.LAYOUT_NAMES[layout], icon = AIcon.Grid) { layout = (layout + 1) % MultiViewLogic.LAYOUT_NAMES.size }
-                SmallPill("Schließen", icon = AIcon.Close) { onClose() }
+                SmallPill("Schliessen", icon = AIcon.Close) { onClose() }
                 Text("OK = Ton hierher, OK lange = Sender wechseln", color = Color(0xFFA0A6B8), fontSize = 14.sp)
             }
             @Composable

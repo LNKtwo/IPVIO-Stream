@@ -272,7 +272,7 @@ private fun DriveRestore(ctx: Context, list: List<DriveSync.Remote>, pass: Strin
                         Profiles.restart(ctx)
                     }
                     n == Backup.ERR_PASSPHRASE -> onStatus("Falsches Sync-Passwort. Es wurde nichts geändert.")
-                    n == Backup.ERR_SAFETY -> onStatus("Die Sicherheitskopie ließ sich nicht anlegen. Es wurde nichts geändert.")
+                    n == Backup.ERR_SAFETY -> onStatus("Die Sicherheitskopie liess sich nicht anlegen. Es wurde nichts geändert.")
                     else -> onStatus("Diese Sicherung ist ungültig.")
                 }
             }
@@ -311,6 +311,6 @@ private fun driveError(e: Throwable): String {
             else -> "Google Drive meldet einen Fehler."
         }
         DriveSync.Reason.NOT_FOUND -> "Diese Sicherung gibt es in Google Drive nicht mehr."
-        DriveSync.Reason.TOO_BIG -> "Diese Sicherung ist zu groß."
+        DriveSync.Reason.TOO_BIG -> "Diese Sicherung ist zu gross."
     }
 }

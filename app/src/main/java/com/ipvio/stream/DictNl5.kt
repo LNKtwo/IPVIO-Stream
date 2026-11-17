@@ -5,7 +5,7 @@ val DictNl5 = """
 Dunkler Kasten hinter der Uhr. Aus = nur die Zahlen.¦Donker vak achter de klok. Uit = alleen de cijfers.
 Puffer (bei langsamem Internet)¦Buffer (bij traag internet)
 Bildrate anpassen¦Beeldsnelheid aanpassen
-Ruckelt – Puffer wird beim nächsten Start größer¦Haperend – buffer wordt bij de volgende start groter
+Ruckelt – Puffer wird beim nächsten Start grösser¦Haperend – buffer wordt bij de volgende start groter
 App-Aktualisierung¦App-update
 Adresse der Update-Datei (https://…/update.json)¦Adres van het updatebestand (https://…/update.json)
 Nach Update suchen¦Op updates controleren
@@ -64,7 +64,7 @@ Oben links¦Linksboven
 Unten rechts¦Rechtsonder
 Unten links¦Linksonder
 Die Uhr folgt der Zeitzone und dem 12/24-Stunden-Format aus den Einstellungen. Im Player geht es auch über Einstellungen > Uhrzeit.¦De klok volgt de tijdzone en het 12/24-uursformaat uit de instellingen. In de speler kan dat ook via Instellingen > Tijd.
-Ein größerer Puffer lädt mehr Film im Voraus und verhindert Ruckeln bei schwacher Leitung; dafür dauert der Start etwas länger und es wird mehr Speicher gebraucht. „Automatisch“ beginnt normal und vergrößert den Puffer von selbst, wenn es mehrfach ruckelt (aktuell Stufe {#0}). Gilt ab dem nächsten gestarteten Titel.¦Een grotere buffer laadt meer film vooraf en voorkomt haperen bij een zwakke lijn; daarvoor duurt de start iets langer en is er meer geheugen nodig. „Automatisch” begint normaal en vergroot de buffer vanzelf als het meerdere keren hapert (nu niveau {#0}). Geldt vanaf de volgende gestarte titel.
+Ein grösserer Puffer lädt mehr Film im Voraus und verhindert Ruckeln bei schwacher Leitung; dafür dauert der Start etwas länger und es wird mehr Speicher gebraucht. „Automatisch“ beginnt normal und vergrössert den Puffer von selbst, wenn es mehrfach ruckelt (aktuell Stufe {#0}). Gilt ab dem nächsten gestarteten Titel.¦Een grotere buffer laadt meer film vooraf en voorkomt haperen bij een zwakke lijn; daarvoor duurt de start iets langer en is er meer geheugen nodig. „Automatisch” begint normaal en vergroot de buffer vanzelf als het meerdere keren hapert (nu niveau {#0}). Geldt vanaf de volgende gestarte titel.
 Passt die Bildwiederholrate des Fernsehers an den Film an (z. B. 24 Bilder), wenn der Fernseher das ohne Bildaussetzer kann. Bei Fire TV zusätzlich in den Geräteeinstellungen „Originale Bildrate anpassen“ prüfen.¦Past de beeldfrequentie van de tv aan de film aan (bijv. 24 beelden), als de tv dat zonder beeldonderbreking kan. Controleer bij Fire TV ook in de apparaatinstellingen „Originele beeldsnelheid aanpassen”.
 {#0} min¦{#0} min
 Quelle {#0}¦Bron {#0}
@@ -86,11 +86,11 @@ Zu „¦Aan „
 “ hinzufügen: OK auf einem Sender fügt ihn hinzu bzw. entfernt ihn wieder¦” toevoegen: OK op een zender voegt hem toe of verwijdert hem weer
 Entfernt¦Verwijderd
 Hinzugefügt¦Toegevoegd
-Diese Playlist ist sehr groß: {0} Titel in {#1} Sprachen.¦Deze playlist is erg groot: {0} titels in {#1} talen.
+Diese Playlist ist sehr gross: {0} Titel in {#1} Sprachen.¦Deze playlist is erg groot: {0} titels in {#1} talen.
 „Alles laden“ lädt alle {0} Titel. Das kann einige Minuten dauern.¦„Alles laden” laadt alle {0} titels. Dat kan enkele minuten duren.
 Gewählt: {0} Titel¦Gekozen: {0} titels
 Das dauert gerade sehr lange.¦Dit duurt nu erg lang.
-Sehr große Playlists brauchen lange. Mit der Sprachauswahl lädst du nur die Titel, die du wirklich brauchst.¦Zeer grote playlists duren lang. Met de taalkeuze laad je alleen de titels die je echt nodig hebt.
+Sehr grosse Playlists brauchen lange. Mit der Sprachauswahl lädst du nur die Titel, die du wirklich brauchst.¦Zeer grote playlists duren lang. Met de taalkeuze laad je alleen de titels die je echt nodig hebt.
 Server nicht gefunden (DNS)¦Server niet gevonden (DNS)
 Sichere Verbindung fehlgeschlagen. Datum und Uhrzeit des Geräts prüfen¦Beveiligde verbinding mislukt. Controleer datum en tijd van het apparaat
 Zeitüberschreitung, Server antwortet nicht¦Time-out, server reageert niet
@@ -149,8 +149,8 @@ Aufnahmen ({#0})¦Opnames ({#0})
 Zurückspulen und Aufnehmen¦Terugspoelen en opnemen
 Live TV zurückspulen¦Live-tv terugspoelen
 Speichert den laufenden Sender auf dem Gerät. Dann kannst du pausieren, ohne etwas zu verpassen, mit den Spultasten zurückspringen und mit „Zurück zu Live“ wieder aufholen. Gilt für normale Live-Streams (nicht HLS).¦Slaat de lopende zender op het apparaat op. Dan kun je pauzeren zonder iets te missen, met de spoeltoetsen terugspringen en met „Terug naar live” weer inhalen. Geldt voor normale livestreams (niet HLS).
-Puffergröße¦Buffergrootte
-Ungefähr: 512 MB reichen für 10–20 Minuten in HD. Der Puffer wird beim Schließen des Players gelöscht.¦Ongeveer: 512 MB is genoeg voor 10–20 minuten in HD. De buffer wordt gewist als je de speler sluit.
+Puffergrösse¦Buffergrootte
+Ungefähr: 512 MB reichen für 10–20 Minuten in HD. Der Puffer wird beim Schliessen des Players gelöscht.¦Ongeveer: 512 MB is genoeg voor 10–20 minuten in HD. De buffer wordt gewist als je de speler sluit.
 Speicherort für Aufnahmen¦Opslaglocatie voor opnames
 Nachlauf nach Sendungsende¦Naloop na einde uitzending
 Aufnehmen: im Player bei einem Sender auf den roten Knopf. Die laufende Sendung wird bis zu ihrem Ende laut TV-Guide aufgenommen, beginnt sie schon im Puffer, auch von ihrem Anfang an. Schaust du währenddessen einen anderen Sender, braucht das eine zweite Verbindung zu deinem Anbieter. Aufnahmen liegen im App-Ordner und werden beim Deinstallieren der App gelöscht.¦Opnemen: druk in de speler bij een zender op de rode knop. De lopende uitzending wordt tot het einde volgens de tv-gids opgenomen; begint ze al in de buffer, dan ook vanaf het begin. Kijk je ondertussen naar een andere zender, dan is daarvoor een tweede verbinding met je aanbieder nodig. Opnames staan in de app-map en worden bij het verwijderen van de app gewist.
@@ -169,9 +169,9 @@ wird mit angezeigt¦wordt ook getoond
 „Mit anzeigen“ zeigt eine Playlist zusätzlich zur aktiven: Filme und Serien erscheinen zusammen (doppelte Filme nur einmal, gleiche Serien als eine Serie mit mehreren Quellen). In Filme und Serien filterst du über „Quelle“, im Live TV wechselst du die Quelle mit dem Knopf oben. Jede weitere Playlist braucht zusätzlich Speicher.¦„Ook tonen” toont een playlist naast de actieve: films en series verschijnen samen (dubbele films maar één keer, dezelfde series als één serie met meerdere bronnen). In films en series filter je via „Bron”, in live-tv wissel je de bron met de knop bovenaan. Elke extra playlist heeft extra geheugen nodig.
 Weitere Playlist wird geladen: {0}¦Extra playlist wordt geladen: {0}
 Zu wenig Speicher für eine weitere Playlist auf diesem Gerät.¦Te weinig geheugen voor een extra playlist op dit apparaat.
-Kartengröße, Seitenleiste, Raster¦Kaartgrootte, zijbalk, raster
+Kartengrösse, Seitenleiste, Raster¦Kaartgrootte, zijbalk, raster
 Karten¦Kaarten
-Beim Markieren einer Auswahl zeigt die Vorschau sofort die Wirkung, OK übernimmt sie. Schriftgröße und Farben findest du unter „Design“.¦Bij het markeren van een keuze toont het voorbeeld meteen het effect, OK neemt het over. Lettergrootte en kleuren vind je onder „Ontwerp”.
+Beim Markieren einer Auswahl zeigt die Vorschau sofort die Wirkung, OK übernimmt sie. Schriftgrösse und Farben findest du unter „Design“.¦Bij het markeren van een keuze toont het voorbeeld meteen het effect, OK neemt het over. Lettergrootte en kleuren vind je onder „Ontwerp”.
 Seitenleiste¦Zijbalk
 Position¦Positie
 Links¦Links
@@ -234,7 +234,7 @@ Die App ist für den Fernseher gebaut und wirkt quer am besten. Aus: dreht mit d
 Oder mit der Handy-Kamera scannen¦Of scan met de camera van je telefoon
 QR-Code scannen¦QR-code scannen
 Spende¦Donatie
-Hallo, ich bin der nigerianische Prinz und brauche dringend deine Hilfe! Spaß beiseite: Die App kostet dich nichts, mich aber ein paar Nächte Schlaf und sehr viel Kaffee. Wenn du mir ein paar Euro schicken möchtest, tanzt mein Kontostand vor Freude. Kein Zwang: Die App bleibt kostenlos, werbefrei und GPL-lizenziert.¦Hallo, ik ben de Nigeriaanse prins en ik heb dringend je hulp nodig! Maar zonder gekheid: de app kost jou niets, maar mij wel een paar slapeloze nachten en HEEL veel koffie. Wil je me een paar euro sturen, dan danst mijn bankrekening van vreugde. Geen verplichting: de app blijft gratis, reclamevrij en onder GPL-licentie.
+Hallo, ich bin der nigerianische Prinz und brauche dringend deine Hilfe! Spass beiseite: Die App kostet dich nichts, mich aber ein paar Nächte Schlaf und sehr viel Kaffee. Wenn du mir ein paar Euro schicken möchtest, tanzt mein Kontostand vor Freude. Kein Zwang: Die App bleibt kostenlos, werbefrei und GPL-lizenziert.¦Hallo, ik ben de Nigeriaanse prins en ik heb dringend je hulp nodig! Maar zonder gekheid: de app kost jou niets, maar mij wel een paar slapeloze nachten en HEEL veel koffie. Wil je me een paar euro sturen, dan danst mijn bankrekening van vreugde. Geen verplichting: de app blijft gratis, reclamevrij en onder GPL-licentie.
 Mit der Handy-Kamera scannen¦Scannen met de camera van je telefoon
 Folgen werden geladen …¦Afleveringen worden geladen …
 Die Folgen konnten nicht geladen werden. Verbindung oder Zugang prüfen.¦De afleveringen konden niet worden geladen. Controleer de verbinding of toegang.
@@ -244,7 +244,7 @@ Raster & Ansicht¦Raster & weergave
 American Football¦American football
 Basketball¦Basketbal
 Eishockey¦IJshockey
-Fußball¦Voetbal
+Fussball¦Voetbal
 Tennis¦Tennis
 Motorsport¦Autosport
 Kampfsport¦Vechtsport
@@ -278,10 +278,10 @@ Auf diesem Gerät gibt es keine Dateiauswahl. Nutze die Übertragung im WLAN.¦D
 Gesichert werden Einstellungen, Favoriten, Verlauf, Weiterschauen und Profile. Playlists und Zugangsdaten sind nur in „Sicherung mit Playlists“ enthalten (die Datei enthält Passwörter, gib sie nicht weiter). Beim Wiederherstellen startet die App neu. Auf einem neuen Gerät geht das gleich beim Hinzufügen der ersten Playlist.¦Instellingen, favorieten, geschiedenis, verder kijken en profielen worden opgeslagen. Afspeellijsten en inloggegevens staan alleen in “Back-up met afspeellijsten opslaan” (het bestand bevat wachtwoorden, deel het niet). De app herstart bij het terugzetten. Op een nieuw apparaat kan dat meteen bij het toevoegen van de eerste afspeellijst.
 Wichtig zu wissen¦Goed om te weten
 IPVIO Stream ist nur ein Abspielgerät. Die App liefert selbst keine Sender, Filme, Serien und keine Playlist. Den Link oder die Zugangsdaten bekommst du von deinem IPTV-Anbieter oder aus deiner eigenen Quelle. Wir können dir keinen Link nennen.¦IPVIO Stream is alleen een speler. De app levert zelf geen zenders, films, series of afspeellijst. De link of inloggegevens krijg je van je IPTV-aanbieder of eigen bron. Wij kunnen je geen link geven.
-OK = groß¦OK = groot
+OK = gross¦OK = groot
 Handy und dieses Gerät müssen im selben WLAN sein. Halte die Kamera auf das Bild. Es klappt auch aus einiger Entfernung.¦Telefoon en dit apparaat moeten op hetzelfde wifi zitten. Houd de camera op het beeld. Het werkt ook op enige afstand.
 Oder Adresse im Browser eintippen:¦Of typ het adres in de browser:
-Zurück oder OK schließt das Bild.¦Terug of OK sluit het beeld.
+Zurück oder OK schliesst das Bild.¦Terug of OK sluit het beeld.
 Leiste nach unten¦Balk naar onderen
 Leiste nach oben¦Balk naar boven
 Texte¦Teksten
@@ -292,8 +292,8 @@ Bild¦Beeld
 Kartenbreite¦Kaartbreedte
 Spalten und Zeilen gelten nur in der Ansicht „Raster“.¦Kolommen en rijen gelden alleen in de weergave ‘Raster’.
 Zeigt die echte App mit deinen Titeln; die Einstellungen erscheinen in einer schmalen Leiste unten. Ein Klick auf eine Auswahl wirkt sofort.¦Toont de echte app met je titels; de instellingen verschijnen in een smalle balk onderaan. Eén klik op een keuze werkt meteen.
-Zwei gleich groß¦Twee even groot
-Einer groß, einer klein¦Eén groot, één klein
+Zwei gleich gross¦Twee even groot
+Einer gross, einer klein¦Eén groot, één klein
 So sieht eine Karte aus: normal und markiert¦Zo ziet een kaart eruit: normaal en gemarkeerd
 Score-Overlay¦Score-overlay
 Anzeige¦Weergave
@@ -303,7 +303,7 @@ In den Ecken verteilt¦Verdeeld over de hoeken
 Ausgewählte Spiele entfernen¦Gekozen wedstrijden verwijderen
 Zusatzbild nicht abspielbar¦Extra beeld kan niet worden afgespeeld
 Alle Playlists¦Alle playlists
-Fenstergröße¦Venstergrootte
+Fenstergrösse¦Venstergrootte
 Gilt für Bild-in-Bild. Deine Auswahl wird gespeichert.¦Geldt voor beeld-in-beeld. Je keuze wordt onthouden.
 Handy-Suche¦Zoeken met je telefoon
 Der Server konnte nicht gestartet werden.¦De server kon niet worden gestart.
@@ -367,16 +367,16 @@ Mini-Spielstand¦Mini-tussenstand
 Ein kleines Fenster in der Ecke zeigt den Stand, solange eines deiner Teams spielt – auch beim Film oder auf einem anderen Sender.¦Een klein venster in de hoek toont de stand terwijl een van je teams speelt – ook tijdens een film of op een andere zender.
 Fenster: An¦Venster: Aan
 Fenster: Aus¦Venster: Uit
-Größe¦Grootte
+Grösse¦Grootte
 Klein¦Klein
 Normal¦Normaal
-Groß¦Groot
+Gross¦Groot
 Logos und Namen¦Logo's en namen
 Nur Logos¦Alleen logo's
 Spielzeit: An¦Speeltijd: Aan
 Spielzeit: Aus¦Speeltijd: Uit
 Tabelle¦Tabel
-Schließen¦Sluiten
+Schliessen¦Sluiten
 Keine Tabelle verfügbar.¦Geen tabel beschikbaar.
 Lade…¦Laden…
 Ausgeblendete¦Verborgen
@@ -385,7 +385,7 @@ Kategorie ausblenden¦Categorie verbergen
 Gruppen ignorieren¦Groepen negeren
 Alle wieder einschalten¦Alles weer inschakelen
 Ignoriert¦Genegeerd
-Titel und Sender sind nach der Kennung deines Anbieters gebündelt (z. B. „TR |“, „[EN]“, „AR:“). Schalte Bündel aus, die du nicht brauchst: Sie verschwinden sofort überall, ohne die Playlist neu zu laden. Ausgeschaltet heißt ignoriert. Hilft dort, wo der Sprachfilter eine Kennung nicht erkennt.¦Titels en zenders worden gebundeld op basis van de tag van je aanbieder (bijv. "TR |", "[EN]", "AR:"). Zet bundels uit die je niet nodig hebt: ze verdwijnen overal meteen, zonder de lijst opnieuw te laden. Uit betekent genegeerd. Helpt waar het taalfilter een tag niet herkent.
+Titel und Sender sind nach der Kennung deines Anbieters gebündelt (z. B. „TR |“, „[EN]“, „AR:“). Schalte Bündel aus, die du nicht brauchst: Sie verschwinden sofort überall, ohne die Playlist neu zu laden. Ausgeschaltet heisst ignoriert. Hilft dort, wo der Sprachfilter eine Kennung nicht erkennt.¦Titels en zenders worden gebundeld op basis van de tag van je aanbieder (bijv. "TR |", "[EN]", "AR:"). Zet bundels uit die je niet nodig hebt: ze verdwijnen overal meteen, zonder de lijst opnieuw te laden. Uit betekent genegeerd. Helpt waar het taalfilter een tag niet herkent.
 Kalender¦Kalender
 Ligen¦Competities
 Abgewählte Ligen erscheinen nicht und werden nicht abgefragt.¦Uitgeschakelde competities worden niet getoond en niet opgevraagd.
@@ -474,7 +474,7 @@ Ohne Kennung¦Zonder label
 Rand: „Schatten“ legt einen weichen dunklen Schatten unter die Schrift, „Kontur“ zeichnet einen schwarzen Rand rundherum (besser lesbar auf hellem Bild), „Kein“ lässt die Schrift pur.¦Rand: “Schaduw” legt een zachte donkere schaduw onder de tekst, “Contour” tekent een zwarte rand eromheen (beter leesbaar op een licht beeld), “Geen” laat de tekst puur.
 Bildschirmrand einstellen¦Schermrand instellen
 Zeigt einen Rahmen mit vier Ecken am Fernseher: Stelle den Rand ein, bis alle vier Ecken sichtbar sind. Hilft, wenn dein Fernseher Menü oder Texte am Rand abschneidet.¦Toont een kader met vier hoeken op de tv: stel de rand in tot alle vier de hoeken zichtbaar zijn. Helpt als je tv menu of tekst aan de rand afsnijdt.
-Du siehst einen weißen Rahmen mit vier grünen Punkten. Wenn eine Ecke fehlt, schneidet dein Fernseher den Rand ab. Rechts/Links ändert den Rand seitlich, Hoch/Runter oben und unten, bis alle vier Ecken sichtbar sind. OK speichert.¦Je ziet een wit kader met vier groene punten. Ontbreekt er een hoek, dan snijdt je tv de rand af. Rechts/links verandert de zijrand, omhoog/omlaag boven en onder, tot alle vier de hoeken zichtbaar zijn. OK slaat op.
+Du siehst einen weissen Rahmen mit vier grünen Punkten. Wenn eine Ecke fehlt, schneidet dein Fernseher den Rand ab. Rechts/Links ändert den Rand seitlich, Hoch/Runter oben und unten, bis alle vier Ecken sichtbar sind. OK speichert.¦Je ziet een wit kader met vier groene punten. Ontbreekt er een hoek, dan snijdt je tv de rand af. Rechts/links verandert de zijrand, omhoog/omlaag boven en onder, tot alle vier de hoeken zichtbaar zijn. OK slaat op.
 Seitlich¦Zijkanten
 Oben/unten¦Boven/onder
 Wiedergabe¦Afspelen
@@ -485,8 +485,8 @@ Liste importiert¦Lijst geïmporteerd
 Titel gelesen¦titels gelezen
 in deiner Playlist gefunden¦gevonden in je playlist
 Mehrfachansicht¦Multiview
-Vier gleich groß¦Vier even groot
-Einer groß, drei klein¦Eén groot, drie klein
+Vier gleich gross¦Vier even groot
+Einer gross, drei klein¦Eén groot, drie klein
 OK = Ton hierher, OK lange = Sender wechseln¦OK = geluid hier, OK lang = zender wisselen
 So sieht die Reihenfolge aus¦Zo ziet de volgorde eruit
 Nichts gezeigt¦Niets getoond

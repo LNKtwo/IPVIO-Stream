@@ -410,7 +410,7 @@ private val SEARCH_FILTERS = listOf("Alle", "Filme", "Serien", "Live TV", "Sport
 
 /** Heuristic for the sports hub filter: channel name or category looks like sports. */
 internal object SearchSport {
-    private val WORDS = listOf("sport", "dazn", "espn", "eurosport", "bein", "arena", "sky sport", "nba", "nfl", "nhl", "ufc", "f1", "fußball", "fussball", "football", "soccer", "tennis", "golf")
+    private val WORDS = listOf("sport", "dazn", "espn", "eurosport", "bein", "arena", "sky sport", "nba", "nfl", "nhl", "ufc", "f1", "fussball", "fussball", "football", "soccer", "tennis", "golf")
     fun isSport(i: Item): Boolean {
         val t = (i.title + " " + i.group).lowercase()
         return WORDS.any { it in t }

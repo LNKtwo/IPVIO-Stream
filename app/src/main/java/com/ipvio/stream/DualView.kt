@@ -147,7 +147,7 @@ internal fun secondStreamTip(e: PlaybackException): String {
 /** Saved settings for the second stream: arrangement, window size and corner (picture-in-picture), sound. */
 object DualPrefs {
     val SIZES = listOf(220, 300, 400, 520)
-    val SIZE_NAMES = listOf("Klein", "Mittel", "Groß", "Sehr groß")
+    val SIZE_NAMES = listOf("Klein", "Mittel", "Gross", "Sehr gross")
     val CORNER_NAMES = listOf("Unten rechts", "Unten links", "Oben rechts", "Oben links")
     val ARRANGE_NAMES = listOf("Bild-in-Bild", "Geteilt")
 

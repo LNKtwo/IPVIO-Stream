@@ -55,7 +55,7 @@ internal fun ViewPage(ctx: Context, live: Boolean = false) {
     Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) { tabChips() }
     if (!live) Hint(
         when (tab) {
-            0 -> "Karten: So sehen einzelne Filme und Serien in den Listen aus (Poster oder breites Bild, Größe, Infos)."
+            0 -> "Karten: So sehen einzelne Filme und Serien in den Listen aus (Poster oder breites Bild, Grösse, Infos)."
             1 -> "Seitenleiste: Das Menü am Rand mit Startseite, Filme, Serien und Live TV. Du kannst sie links, rechts oder oben anzeigen."
             2 -> "Raster: Wie viele Spalten und Zeilen die Rasteransicht (zum Beispiel „Alle Filme“) zeigt."
             3 -> "Startseite: Aussehen der ersten Seite nach dem Start. Welche Reihen erscheinen, stellst du über „Startseite anpassen“ ein."
@@ -209,8 +209,8 @@ private fun CardsTab(ctx: Context) {
             }
         }
     }) {
-        Text("Kartengröße", color = Muted, fontSize = 15.sp)
-        Chips(listOf("Klein", "Normal", "Groß"), General.cardSize, hSize) { General.setCardView(ctx, it, General.cardArt) }
+        Text("Kartengrösse", color = Muted, fontSize = 15.sp)
+        Chips(listOf("Klein", "Normal", "Gross"), General.cardSize, hSize) { General.setCardView(ctx, it, General.cardArt) }
         Text("Bilder bei Filmen und Serien", color = Muted, fontSize = 15.sp)
         Chips(listOf("Cover", "Szenenbild"), General.cardArt, hArt) { General.setCardView(ctx, General.cardSize, it) }
         Text("Vorschau beim Markieren", color = Muted, fontSize = 15.sp)
@@ -218,7 +218,7 @@ private fun CardsTab(ctx: Context) {
         Text("Standard-Ansicht", color = Muted, fontSize = 15.sp)
         Chips(listOf("Raster", "Kino"), if (BrowsePrefs.detail) 1 else 0, hView) { BrowsePrefs.set(ctx, it == 1) }
         Hint("Raster zeigt viele Titel auf einmal. Kino zeigt oben die Details zum markierten Titel und unten eine Reihe zum Durchblättern.")
-        Hint("Beim Markieren einer Auswahl zeigt die Vorschau sofort die Wirkung, OK übernimmt sie. Schriftgröße und Farben findest du unter „Design“.")
+        Hint("Beim Markieren einer Auswahl zeigt die Vorschau sofort die Wirkung, OK übernimmt sie. Schriftgrösse und Farben findest du unter „Design“.")
     }
 }
 
@@ -351,7 +351,7 @@ private fun HomeTab(ctx: Context) {
     }) {
         Text("Banner wechselt", color = Muted, fontSize = 15.sp)
         Chips(heroOpts.map { if (it == 0) "nie" else "alle $it s" }, heroOpts.indexOf(General.heroSec).coerceAtLeast(0), hHero) { General.setHeroSec(ctx, heroOpts[it]) }
-        StepRow("Kartengröße (Reihen)", AppSettings.cardW.toString(),
+        StepRow("Kartengrösse (Reihen)", AppSettings.cardW.toString(),
             { AppSettings.setCardW(ctx, AppSettings.cardW - 10) },
             { AppSettings.setCardW(ctx, AppSettings.cardW + 10) })
         Hint("Beim Markieren einer Auswahl zeigt die Vorschau sofort die Wirkung, OK übernimmt sie.")

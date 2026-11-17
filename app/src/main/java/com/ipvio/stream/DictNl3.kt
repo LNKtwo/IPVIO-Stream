@@ -28,7 +28,7 @@ Soap¦Soap
 Untertitel-Stil¦Ondertitelstijl
 Wiedergabe-Tempo¦Afspeelsnelheid
 ansehen¦bekijken
-schließen¦sluiten
+schliessen¦sluiten
 JETZT¦NU
 BEENDET¦BEËINDIGD
 Letzter Absturz¦Laatste crash
@@ -60,7 +60,7 @@ Keine gültige Sicherung gefunden.¦Geen geldige back-up gevonden.
 Gesichert werden Einstellungen, Favoriten, Verlauf, Weiterschauen und Profile. Playlists und Zugangsdaten sind nicht enthalten. Beim Wiederherstellen startet die App neu.¦Opgeslagen worden instellingen, favorieten, geschiedenis, verder kijken en profielen. Playlists en inloggegevens zijn niet inbegrepen. Bij het herstellen start de app opnieuw.
 Standard-Ansicht¦Standaardweergave
 Oberfläche aktuell ×{0} (Bildschirm {#1} dp breit).¦Interface nu ×{0} (scherm {#1} dp breed).
-Standard ist 85 %: mehr Inhalt, Elemente bleiben gut lesbar. „Automatisch“ vergrößert die App auf sehr breiten Bildschirmen.¦Standaard is 85 %: meer inhoud, elementen blijven goed leesbaar. „Automatisch” vergroot de app op zeer brede schermen.
+Standard ist 85 %: mehr Inhalt, Elemente bleiben gut lesbar. „Automatisch“ vergrössert die App auf sehr breiten Bildschirmen.¦Standaard is 85 %: meer inhoud, elementen blijven goed leesbaar. „Automatisch” vergroot de app op zeer brede schermen.
 Zuletzt aktualisiert¦Laatst bijgewerkt
 Nächste Aktualisierung¦Volgende update
 Bereit¦Klaar
@@ -125,7 +125,7 @@ Zeitüberschreitung: Der Server antwortet nicht.¦Time-out: de server reageert n
 Keine Verbindung zum Server.¦Geen verbinding met de server.
 Sichere Verbindung fehlgeschlagen (Zertifikat).¦Beveiligde verbinding mislukt (certificaat).
 Ungültige Adresse.¦Ongeldig adres.
-Die Playlist ist zu groß für den Speicher dieses Geräts.¦De playlist is te groot voor het geheugen van dit apparaat.
+Die Playlist ist zu gross für den Speicher dieses Geräts.¦De playlist is te groot voor het geheugen van dit apparaat.
 Verbindung unterbrochen. Bitte erneut versuchen.¦Verbinding verbroken. Probeer het opnieuw.
 Verbindung wieder da – lade neu …¦Verbinding hersteld – opnieuw laden …
 Bildschirm kann nicht wach gehalten werden – der Bildschirmschoner kann starten.¦Het scherm kan niet worden wakker gehouden – de schermbeveiliging kan starten.
@@ -156,8 +156,8 @@ Sender werden heruntergeladen …¦Zenders worden gedownload …
 Kategorien werden sortiert …¦Categorieën worden gesorteerd …
 Playlist wird gespeichert …¦Playlist wordt opgeslagen …
 heruntergeladen¦gedownload
-Große Playlists können bis zu einer Minute dauern.¦Grote playlists kunnen tot een minuut duren.
-Deine Bibliothek ist für automatische Genres zu groß (über 60.000 Filme und Serien). Es werden die Kategorien deines Anbieters verwendet. Blende unten Sprachen aus, die du nicht brauchst – dann passt es wieder.¦Je bibliotheek is te groot voor automatische genres (meer dan 60.000 films en series). De categorieën van je aanbieder worden gebruikt. Verberg hieronder talen die je niet nodig hebt – dan past het weer.
+Grosse Playlists können bis zu einer Minute dauern.¦Grote playlists kunnen tot een minuut duren.
+Deine Bibliothek ist für automatische Genres zu gross (über 60.000 Filme und Serien). Es werden die Kategorien deines Anbieters verwendet. Blende unten Sprachen aus, die du nicht brauchst – dann passt es wieder.¦Je bibliotheek is te groot voor automatische genres (meer dan 60.000 films en series). De categorieën van je aanbieder worden gebruikt. Verberg hieronder talen die je niet nodig hebt – dan past het weer.
 Sprachen der Inhalte¦Talen van de inhoud
 Blende Sprachen aus, die du nicht brauchst – sie verschwinden dann überall: Startseite, Filme, Serien, Live-TV und Suche. Erkannt wird die Kennzeichnung deines Anbieters (z. B. „DE |“, „[TR]“, „GERMAN“). Das ist bei IPTV-Anbietern die Sprache der Tonspur, nicht das Herkunftsland des Films.¦Verberg talen die je niet nodig hebt – ze verdwijnen dan overal: startpagina, films, series, live-tv en zoeken. Herkend wordt de markering van je aanbieder (bijv. „DE |”, „[TR]”, „GERMAN”). Bij IPTV-aanbieders is dat de taal van het geluidsspoor, niet het land van herkomst van de film.
 Sprachen werden gezählt …¦Talen worden geteld …
@@ -172,7 +172,7 @@ Automatische Genres sind für diese Auswahl ausgeschaltet¦Automatische genres z
 Deine Bibliothek hat {#0} Filme und Serien – die Grenze für automatische Genres liegt bei {#1}. Blende in Einstellungen > Playlists > „Sprachen der Inhalte“ die Sprachen aus, die du nicht brauchst. Danach werden die Genres im Hintergrund erkannt.¦Je bibliotheek heeft {#0} films en series – de grens voor automatische genres ligt bij {#1}. Verberg in Instellingen > Playlists > „Talen van de inhoud” de talen die je niet nodig hebt. Daarna worden de genres op de achtergrond herkend.
 Genres werden gerade im Hintergrund erkannt. Die Kategorien erscheinen nach und nach.¦Genres worden nu op de achtergrond herkend. De categorieën verschijnen na en na.
 Sprachauswahl wird angewendet …¦Taalkeuze wordt toegepast …
-Ausgeblendete Sprachen werden gar nicht erst geladen. Das spart viel Arbeitsspeicher und macht große Playlists schneller.¦Verborgen talen worden helemaal niet geladen. Dat bespaart veel werkgeheugen en maakt grote playlists sneller.
+Ausgeblendete Sprachen werden gar nicht erst geladen. Das spart viel Arbeitsspeicher und macht grosse Playlists schneller.¦Verborgen talen worden helemaal niet geladen. Dat bespaart veel werkgeheugen en maakt grote playlists sneller.
 Mindestens eine Sprache muss sichtbar bleiben.¦Minstens één taal moet zichtbaar blijven.
 Geladen: {#0} Sender mit Programm (gekürzt, Speicher knapp)¦Geladen: {#0} zenders met programma (ingekort, geheugen krap)
 Alle Sprachen dieser Playlist sind ausgeblendet¦Alle talen van deze playlist zijn verborgen
@@ -199,7 +199,7 @@ Titel werden eingelesen …¦Titels worden ingelezen …
 Gespeicherte Playlist wird gelesen …¦Opgeslagen playlist wordt gelezen …
 Sprachen auswählen¦Talen kiezen
 Laden abgebrochen. Deine Angaben bleiben gespeichert.¦Laden afgebroken. Je gegevens blijven bewaard.
-Die gewählten Inhalte sind zu groß für den Speicher dieses Geräts. Bitte weniger Sprachen wählen.¦De gekozen inhoud is te groot voor het geheugen van dit apparaat. Kies minder talen.
+Die gewählten Inhalte sind zu gross für den Speicher dieses Geräts. Bitte weniger Sprachen wählen.¦De gekozen inhoud is te groot voor het geheugen van dit apparaat. Kies minder talen.
 Zu wenig freier Speicherplatz auf dem Gerät. Bitte Platz schaffen (z. B. unbenutzte Apps löschen) und erneut versuchen.¦Te weinig vrije opslagruimte op het apparaat. Maak ruimte vrij (bijv. ongebruikte apps verwijderen) en probeer opnieuw.
 Noch einmal Zurück drücken zum Abbrechen¦Druk nog een keer op Terug om te annuleren
 Deine Angaben sind gespeichert – bei einer Unterbrechung geht es beim nächsten Start weiter.¦Je gegevens zijn opgeslagen – bij een onderbreking gaat het bij de volgende start verder.
@@ -208,14 +208,14 @@ Passt in den Speicher dieses Geräts.¦Past in het geheugen van dit apparaat.
 Das Laden wurde mehrmals unterbrochen. Deine Angaben sind gespeichert – drücke „Hinzufügen“, um es erneut zu versuchen.¦Het laden is meerdere keren onderbroken. Je gegevens zijn opgeslagen – druk op „Toevoegen” om het opnieuw te proberen.
 Meine Sprache zeigen¦Mijn taal tonen
 Welche Inhalte möchtest du sehen?¦Welke inhoud wil je zien?
-Diese Playlist ist sehr groß: {#0} Titel in {#1} Sprachen.¦Deze playlist is erg groot: {#0} titels in {#1} talen.
+Diese Playlist ist sehr gross: {#0} Titel in {#1} Sprachen.¦Deze playlist is erg groot: {#0} titels in {#1} talen.
 Wähle die Sprachen, die du sprichst – dann zeigt dir die App nur Filme, Serien und Sender in diesen Sprachen. Das Laden geht deutlich schneller und braucht weniger Speicher. Ändern kannst du das jederzeit unter Einstellungen > Sprachen.¦Kies de talen die je spreekt – dan toont de app alleen films, series en zenders in die talen. Het laden gaat veel sneller en kost minder geheugen. Je kunt dit altijd wijzigen onder Instellingen > Talen.
 Alles laden¦Alles laden
 „Alles laden“ lädt alle {#0} Titel. Das kann einige Minuten dauern.¦„Alles laden” laadt alle {#0} titels. Dat kan enkele minuten duren.
 Markiere die Sprachen, deren Titel du sehen möchtest. Erkannt wird die Kennzeichnung deines Anbieters (z. B. „DE |“ oder „[TR]“) – bei IPTV ist das die Sprache der Tonspur, nicht das Herkunftsland.¦Markeer de talen waarvan je de titels wilt zien. Herkend wordt de markering van je aanbieder (bijv. „DE |” of „[TR]”) – bij IPTV is dat de taal van het geluidsspoor, niet het land van herkomst.
 Gewählt: {#0} Titel¦Gekozen: {#0} titels
-Sehr groß für dieses Gerät – das Laden kann lange dauern.¦Erg groot voor dit apparaat – het laden kan lang duren.
-Diese Auswahl ist sehr groß für dieses Gerät – das Laden kann lange dauern.¦Deze selectie is erg groot voor dit apparaat – het laden kan lang duren.
+Sehr gross für dieses Gerät – das Laden kann lange dauern.¦Erg groot voor dit apparaat – het laden kan lang duren.
+Diese Auswahl ist sehr gross für dieses Gerät – das Laden kann lange dauern.¦Deze selectie is erg groot voor dit apparaat – het laden kan lang duren.
 Die Sprachauswahl erscheint, sobald der Download fertig ist.¦De taalkeuze verschijnt zodra de download klaar is.
 Das dauert ungewöhnlich lange. Mit der Sprachauswahl lädst du nur die Titel, die du wirklich brauchst.¦Dit duurt ongewoon lang. Met de taalkeuze laad je alleen de titels die je echt nodig hebt.
 Sprachen wählen¦Talen kiezen
@@ -236,7 +236,7 @@ Menü-Taste oder OK lange drücken = entfernen¦Menutoets of OK lang indrukken =
 Aus „Weiterschauen“ entfernt¦Uit „Verder kijken” verwijderd
 Rechts / Vorspulen = 50 weiter¦Rechts / vooruitspoelen = 50 verder
 Zurückspulen = zurück¦Terugspoelen = terug
-Links schließt¦Links sluit
+Links schliesst¦Links sluit
 Italienisch¦Italiaans
 Portugiesisch¦Portugees
 Polnisch¦Pools

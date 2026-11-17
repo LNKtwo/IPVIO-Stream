@@ -58,23 +58,23 @@ object SportData {
     class Sport(val key: String, val label: String)
 
     val SPORTS = listOf(
-        Sport("soccer", "Fußball"), Sport("basketball", "Basketball"), Sport("nfl", "NFL"), Sport("nhl", "NHL"),
+        Sport("soccer", "Fussball"), Sport("basketball", "Basketball"), Sport("nfl", "NFL"), Sport("nhl", "NHL"),
         Sport("tennis", "Tennis"), Sport("f1", "Formel 1"), Sport("mlb", "MLB"), Sport("ufc", "UFC"),
         Sport("cricket", "Cricket"), Sport("golf", "Golf")
     )
 
     val LEAGUES = listOf(
-        League("Bundesliga", "soccer/ger.1", "Fußball"),
-        League("2. Bundesliga", "soccer/ger.2", "Fußball"),
-        League("Premier League", "soccer/eng.1", "Fußball"),
-        League("LaLiga", "soccer/esp.1", "Fußball"),
-        League("Serie A", "soccer/ita.1", "Fußball"),
-        League("Ligue 1", "soccer/fra.1", "Fußball"),
-        League("Champions League", "soccer/uefa.champions", "Fußball"),
-        League("Europa League", "soccer/uefa.europa", "Fußball"),
+        League("Bundesliga", "soccer/ger.1", "Fussball"),
+        League("2. Bundesliga", "soccer/ger.2", "Fussball"),
+        League("Premier League", "soccer/eng.1", "Fussball"),
+        League("LaLiga", "soccer/esp.1", "Fussball"),
+        League("Serie A", "soccer/ita.1", "Fussball"),
+        League("Ligue 1", "soccer/fra.1", "Fussball"),
+        League("Champions League", "soccer/uefa.champions", "Fussball"),
+        League("Europa League", "soccer/uefa.europa", "Fussball"),
         // Wishbox: North American leagues (same ESPN scoreboard as the others)
-        League("MLS", "soccer/usa.1", "Fußball"),
-        League("Liga MX", "soccer/mex.1", "Fußball"),
+        League("MLS", "soccer/usa.1", "Fussball"),
+        League("Liga MX", "soccer/mex.1", "Fussball"),
         League("NBA", "basketball/nba", "Basketball", "basketball"),
         League("NFL", "football/nfl", "American Football", "nfl"),
         League("College Football", "football/college-football", "American Football", "nfl"),

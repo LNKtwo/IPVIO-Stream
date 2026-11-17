@@ -16,7 +16,7 @@ Allgemein¦Algemeen
 Start, Beenden, Autostart¦Starten, afsluiten, autostart
 Sprache & Region¦Taal & regio
 Sprache, Uhrzeit, Zeitzone¦Taal, tijd, tijdzone
-Kartengröße, Raster¦Kaartgrootte, raster
+Kartengrösse, Raster¦Kaartgrootte, raster
 Design¦Ontwerp
 Farben, Schrift, Animationen¦Kleuren, lettertype, animaties
 Reihenfolge und Einträge¦Volgorde en onderdelen
@@ -86,7 +86,7 @@ Letzten Sender beim Start abspielen¦Laatste zender afspelen bij het starten
 Wenn du zuletzt Live TV gesehen hast, läuft dieser Sender direkt nach dem Start.¦Als je het laatst live-tv hebt gekeken, speelt deze zender direct na het starten.
 Bedienung¦Bediening
 Beenden bestätigen¦Afsluiten bevestigen
-Auf der Startseite muss „Zurück“ zweimal gedrückt werden, damit die App nicht aus Versehen schließt.¦Op de startpagina moet je twee keer op „Terug” drukken, zodat de app niet per ongeluk sluit.
+Auf der Startseite muss „Zurück“ zweimal gedrückt werden, damit die App nicht aus Versehen schliesst.¦Op de startpagina moet je twee keer op „Terug” drukken, zodat de app niet per ongeluk sluit.
 Dieses Gerät bietet die Einstellung nicht an. Autostart funktioniert evtl. trotzdem.¦Dit apparaat biedt de instelling niet aan. Autostart werkt mogelijk toch.
 Zwischenspeicher¦Cache
 Leeren¦Leegmaken
@@ -104,7 +104,7 @@ Zeilen (Raster)¦Rijen (raster)
 Banner wechselt¦Banner wisselt
 nie¦nooit
 alle {#0} s¦elke {#0} s
-Kartengröße (Reihen)¦Kaartgrootte (rijen)
+Kartengrösse (Reihen)¦Kaartgrootte (rijen)
 Kategorien-Ansicht¦Categorieweergave
 Liste mit Vorschau¦Lijst met voorbeeld
 Das Raster kannst du zusätzlich direkt in der Rasteransicht mit dem Raster-Knopf ändern.¦Het raster kun je ook direct in de rasterweergave aanpassen met de rasterknop.
@@ -131,19 +131,19 @@ Ungültig¦Ongeldig
 Wähle ein Farbfeld oder gib einen Hex-Code ein, z. B. #FF6A00. Die App passt die Farbe automatisch so an, dass Schrift immer gut lesbar bleibt.¦Kies een kleurvlak of voer een hexcode in, bijv. #FF6A00. De app past de kleur automatisch aan zodat tekst altijd goed leesbaar blijft.
 Darstellung¦Weergave
 Animationen¦Animaties
-Anzeigegröße¦Weergavegrootte
+Anzeigegrösse¦Weergavegrootte
 Oberfläche aktuell ×¦Interface nu ×
 (Bildschirm¦(scherm
-dp breit). Standard ist 85 %: mehr Inhalt, Elemente bleiben gut lesbar. „Automatisch“ vergrößert die App auf sehr breiten Bildschirmen.¦dp breed). Standaard is 85 %: meer inhoud, elementen blijven goed leesbaar. „Automatisch” vergroot de app op zeer brede schermen.
+dp breit). Standard ist 85 %: mehr Inhalt, Elemente bleiben gut lesbar. „Automatisch“ vergrössert die App auf sehr breiten Bildschirmen.¦dp breed). Standaard is 85 %: meer inhoud, elementen blijven goed leesbaar. „Automatisch” vergroot de app op zeer brede schermen.
 Schrift¦Lettertype
 Schriftart¦Lettertype
-Schriftgröße¦Lettergrootte
+Schriftgrösse¦Lettergrootte
 Aa – So sieht deine Schrift aus¦Aa – Zo ziet je lettertype eruit
-Fünf klare Systemschriften, die auf jedem Gerät vorhanden sind. Die Schriftgröße wirkt zusätzlich zur Anzeigegröße.¦Vijf duidelijke systeemlettertypen die op elk apparaat aanwezig zijn. De lettergrootte werkt bovenop de weergavegrootte.
+Fünf klare Systemschriften, die auf jedem Gerät vorhanden sind. Die Schriftgrösse wirkt zusätzlich zur Anzeigegrösse.¦Vijf duidelijke systeemlettertypen die op elk apparaat aanwezig zijn. De lettergrootte werkt bovenop de weergavegrootte.
 Vorschau¦Voorbeeld
 Aktiv¦Actief
 Hervorhebung¦Accent
-Animationen „Aus“ schaltet die Vergrößerung beim Fokus ab, „Dezent“ macht sie schwächer. Das schont schwache Geräte.¦Animaties „Uit” schakelt het vergroten bij focus uit, „Subtiel” maakt het zwakker. Dat ontlast zwakke apparaten.
+Animationen „Aus“ schaltet die Vergrösserung beim Fokus ab, „Dezent“ macht sie schwächer. Das schont schwache Geräte.¦Animaties „Uit” schakelt het vergroten bij focus uit, „Subtiel” maakt het zwakker. Dat ontlast zwakke apparaten.
 Design zurücksetzen¦Ontwerp herstellen
 keiner seit dem Start¦geen sinds de start
 Version¦Versie
@@ -220,7 +220,7 @@ Episode¦Aflevering
 Serif¦Serif
 Leicht¦Licht
 Monospace¦Monospace
-Sehr groß¦Zeer groot
+Sehr gross¦Zeer groot
 Riesig¦Enorm
 Wiedergabe:¦Afspelen:
 Keine Programmdaten erhalten¦Geen programmagegevens ontvangen
@@ -235,7 +235,7 @@ Türkisch¦Turks
 Kroatisch¦Kroatisch
 Serbisch¦Servisch
 Bosnisch¦Bosnisch
-Weiß¦Wit
+Weiss¦Wit
 Gelb¦Geel
 Grün¦Groen
 Cyan¦Cyaan

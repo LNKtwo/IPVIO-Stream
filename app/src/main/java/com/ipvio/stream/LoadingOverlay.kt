@@ -176,7 +176,7 @@ private fun SlowHint(onChoose: () -> Unit, onClose: () -> Unit) {
     ) {
         Text("Das dauert gerade sehr lange.", color = Color.White, fontSize = 18.sp, fontWeight = FontWeight.Bold)
         Text(
-            "Sehr große Playlists brauchen lange. Mit der Sprachauswahl lädst du nur die Titel, die du wirklich brauchst.",
+            "Sehr grosse Playlists brauchen lange. Mit der Sprachauswahl lädst du nur die Titel, die du wirklich brauchst.",
             color = Color.White.copy(alpha = 0.85f), fontSize = 15.sp, lineHeight = 21.sp
         )
         if (Lang.code() != "en") Text(
@@ -227,7 +227,7 @@ private fun LangIntro(ask: PlaylistStore.LangAsk, onSelect: () -> Unit) {
         BrandMark(Modifier.size(52.dp))
         Text("Welche Inhalte möchtest du sehen?", color = Color.White, fontSize = 30.sp, fontWeight = FontWeight.Bold)
         Text(
-            "Diese Playlist ist sehr groß: " + nf.format(ask.titles) + " Titel in " + ask.counts.size + " Sprachen.",
+            "Diese Playlist ist sehr gross: " + nf.format(ask.titles) + " Titel in " + ask.counts.size + " Sprachen.",
             color = Accent2, fontSize = 18.sp
         )
         Text(
@@ -279,7 +279,7 @@ private fun LangSelect(ask: PlaylistStore.LangAsk, onBack: () -> Unit) {
                     color = if (shown.isEmpty()) DS.Danger else Color.White, fontSize = 15.sp
                 )
                 if (shown.isNotEmpty()) Text(
-                    if (fits) "Passt in den Speicher dieses Geräts." else "Sehr groß für dieses Gerät – das Laden kann lange dauern.",
+                    if (fits) "Passt in den Speicher dieses Geräts." else "Sehr gross für dieses Gerät – das Laden kann lange dauern.",
                     color = if (fits) Accent2 else DS.Gold, fontSize = 13.sp
                 )
             }

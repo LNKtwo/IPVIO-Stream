@@ -104,7 +104,7 @@ Dieses Produkt verwendet die TMDB-API, wird aber nicht von TMDB unterstützt ode
 Raster anpassen¦Raster aanpassen
 Spalten¦Kolommen
 Zeilen¦Rijen
-Die Ansicht dahinter ändert sich sofort. Zurück schließt.¦De weergave erachter verandert direct. Terug sluit.
+Die Ansicht dahinter ändert sich sofort. Zurück schliesst.¦De weergave erachter verandert direct. Terug sluit.
 Keine EPG-Adresse gefunden¦Geen EPG-adres gevonden
 Playlist enthält keine Sender-IDs (tvg-id)¦Playlist bevat geen zender-ID's (tvg-id)
 Keine Programmdaten erhalten ({0})¦Geen programmagegevens ontvangen ({0})
@@ -170,7 +170,7 @@ Normal¦Normaal
 Endet um {0}¦Eindigt om {0}
 Klein¦Klein
 Mittel¦Gemiddeld
-Groß¦Groot
+Gross¦Groot
 Kompakt¦Compact
 Jetzt¦Nu
 Jetzt {0}¦Nu {0}
@@ -178,7 +178,7 @@ TV-Guide – Ansicht¦TV-gids – weergave
 Zoom¦Zoom
 Zeilenhöhe¦Rijhoogte
 Vergangene Sendungen¦Afgelopen programma's
-Zurück = schließen¦Terug = sluiten
+Zurück = schliessen¦Terug = sluiten
 Menü-Taste im TV-Guide = Zoom¦Menutoets in de tv-gids = zoom
 Zeitzone {0} (änderbar unter Einstellungen > Sprache & Region)¦Tijdzone {0} (te wijzigen onder Instellingen > Taal & regio)
 Sendungen¦Programma's
@@ -190,7 +190,7 @@ noch {#0} Min¦nog {#0} min
 Keine Beschreibung vorhanden.¦Geen beschrijving beschikbaar.
 TV-Guide¦TV-gids
 Wähle eine Sendung mit den Pfeiltasten, OK schaltet auf den Sender.¦Kies een programma met de pijltoetsen, OK schakelt naar de zender.
-Zurück bringt dich zur Senderspalte, nochmal Zurück schließt.¦Terug brengt je naar de zenderkolom, nog een keer Terug sluit.
+Zurück bringt dich zur Senderspalte, nochmal Zurück schliesst.¦Terug brengt je naar de zenderkolom, nog een keer Terug sluit.
 lädt …¦laden …
 Kein Programm verfügbar¦Geen programma beschikbaar
 Kein Programm für diesen Sender¦Geen programma voor deze zender
@@ -215,7 +215,7 @@ Dieses Videoformat kann das Gerät nicht abspielen.¦Dit videoformaat kan het ap
 Der Stream ist fehlerhaft oder wird nicht unterstützt.¦De stream is defect of wordt niet ondersteund.
 Wiedergabe nicht möglich.¦Afspelen niet mogelijk.
 Audio & Untertitel¦Audio & ondertitels
-Links schließt das Menü¦Links sluit het menu
+Links schliesst das Menü¦Links sluit het menu
 Rechts wechselt zu den Untertiteln¦Rechts schakelt naar de ondertitels
 Audio¦Audio
 Keine Auswahl verfügbar¦Geen keuze beschikbaar
@@ -248,7 +248,7 @@ Pause¦Pauze
 {#0} Sekunden vor¦{#0} seconden vooruit
 Einstellungen¦Instellingen
 Links = zurück¦Links = terug
-Größe¦Grootte
+Grösse¦Grootte
 Farbe¦Kleur
 Hintergrund¦Achtergrond
 Rand¦Rand

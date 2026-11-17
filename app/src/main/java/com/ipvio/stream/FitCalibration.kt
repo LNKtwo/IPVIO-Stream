@@ -75,7 +75,7 @@ fun FitCalibration(onDone: () -> Unit) {
             Column(Modifier.align(Alignment.Center), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 Text("Bildschirmrand einstellen", color = Color.White, fontSize = 30.sp, fontWeight = FontWeight.ExtraBold)
                 Text(
-                    "Du siehst einen weißen Rahmen mit vier grünen Punkten. Wenn eine Ecke fehlt, schneidet dein Fernseher den Rand ab. " +
+                    "Du siehst einen weissen Rahmen mit vier grünen Punkten. Wenn eine Ecke fehlt, schneidet dein Fernseher den Rand ab. " +
                         "Rechts/Links ändert den Rand seitlich, Hoch/Runter oben und unten, bis alle vier Ecken sichtbar sind. OK speichert.",
                     color = Color(0xFFD0D0D6), fontSize = 18.sp, textAlign = TextAlign.Center, modifier = Modifier.background(Color(0xCC000000))
                 )

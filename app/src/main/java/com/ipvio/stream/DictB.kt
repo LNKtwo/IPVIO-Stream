@@ -51,7 +51,7 @@ Normal¦Normal¦Normal¦Normalno¦Normalno¦Normalno¦Normal¦Normal¦Normale
 Endet um {0}¦Ends at {0}¦Bitiş: {0}¦Završava u {0}¦Završava u {0}¦Završava u {0}¦Termina a las {0}¦Fin à {0}¦Finisce alle {0}
 Klein¦Small¦Küçük¦Malo¦Malo¦Malo¦Pequeño¦Petit¦Piccolo
 Mittel¦Medium¦Orta¦Srednje¦Srednje¦Srednje¦Medio¦Moyen¦Medio
-Groß¦Large¦Büyük¦Veliko¦Veliko¦Veliko¦Grande¦Grand¦Grande
+Gross¦Large¦Büyük¦Veliko¦Veliko¦Veliko¦Grande¦Grand¦Grande
 Kompakt¦Compact¦Kompakt¦Kompaktno¦Kompaktno¦Kompaktno¦Compacto¦Compact¦Compatto
 Jetzt¦Now¦Şimdi¦Sada¦Sada¦Sada¦Ahora¦Maintenant¦Adesso
 Jetzt {0}¦Now {0}¦Şimdi {0}¦Sada {0}¦Sada {0}¦Sada {0}¦Ahora {0}¦Maintenant {0}¦Adesso {0}
@@ -59,7 +59,7 @@ TV-Guide – Ansicht¦TV guide – view¦TV rehberi – görünüm¦TV vodič �
 Zoom¦Zoom¦Yakınlaştırma¦Zum¦Zum¦Zum¦Zoom¦Zoom¦Zoom
 Zeilenhöhe¦Row height¦Satır yüksekliği¦Visina reda¦Visina reda¦Visina reda¦Altura de fila¦Hauteur de ligne¦Altezza riga
 Vergangene Sendungen¦Past programs¦Geçmiş programlar¦Prošle emisije¦Prošle emisije¦Prošle emisije¦Programas pasados¦Programmes passés¦Programmi passati
-Zurück = schließen¦Back = close¦Geri = kapat¦Nazad = zatvori¦Natrag = zatvori¦Nazad = zatvori¦Atrás = cerrar¦Retour = fermer¦Indietro = chiudi
+Zurück = schliessen¦Back = close¦Geri = kapat¦Nazad = zatvori¦Natrag = zatvori¦Nazad = zatvori¦Atrás = cerrar¦Retour = fermer¦Indietro = chiudi
 Menü-Taste im TV-Guide = Zoom¦Menu key in the TV guide = zoom¦TV rehberinde Menü tuşu = yakınlaştırma¦Tipka Meni u TV vodiču = zum¦Tipka Izbornik u TV vodiču = zum¦Taster Meni u TV vodiču = zum¦Tecla Menú en la guía de TV = zoom¦Touche Menu dans le guide TV = zoom¦Tasto Menu nella guida TV = zoom
 Zeitzone {0} (änderbar unter Einstellungen > Sprache & Region)¦Time zone {0} (change under Settings > Language & region)¦Saat dilimi {0} (Ayarlar > Dil ve bölge altında değiştirilebilir)¦Vremenska zona {0} (mijenja se u Postavke > Jezik i regija)¦Vremenska zona {0} (mijenja se u Postavke > Jezik i regija)¦Vremenska zona {0} (menja se u Podešavanja > Jezik i region)¦Zona horaria {0} (se cambia en Ajustes > Idioma y región)¦Fuseau horaire {0} (modifiable dans Réglages > Langue et région)¦Fuso orario {0} (modificabile in Impostazioni > Lingua e regione)
 Sendungen¦Programs¦Programlar¦Emisije¦Emisije¦Emisije¦Programas¦Programmes¦Programmi
@@ -71,7 +71,7 @@ noch {#0} Min¦{#0} min left¦{#0} dk kaldı¦još {#0} min¦još {#0} min¦još
 Keine Beschreibung vorhanden.¦No description available.¦Açıklama yok.¦Opis nije dostupan.¦Opis nije dostupan.¦Opis nije dostupan.¦Sin descripción.¦Aucune description.¦Nessuna descrizione.
 TV-Guide¦TV guide¦TV rehberi¦TV vodič¦TV vodič¦TV vodič¦Guía de TV¦Guide TV¦Guida TV
 Wähle eine Sendung mit den Pfeiltasten, OK schaltet auf den Sender.¦Select a program with the arrow keys, OK switches to the channel.¦Ok tuşlarıyla bir program seçin, OK kanala geçer.¦Odaberite emisiju strelicama, OK prebacuje na kanal.¦Odaberite emisiju strelicama, OK prebacuje na kanal.¦Odaberite emisiju strelicama, OK prebacuje na kanal.¦Elige un programa con las flechas; OK cambia al canal.¦Choisissez une émission avec les flèches, OK affiche la chaîne.¦Scegli un programma con le frecce, OK passa al canale.
-Zurück bringt dich zur Senderspalte, nochmal Zurück schließt.¦Back takes you to the channel column, press Back again to close.¦Geri sizi kanal sütununa götürür, tekrar Geri kapatır.¦Nazad vodi u stupac kanala, ponovni Nazad zatvara.¦Natrag vodi u stupac kanala, ponovni Natrag zatvara.¦Nazad vodi u kolonu kanala, ponovni Nazad zatvara.¦Atrás te lleva a la columna de canales; otra vez Atrás cierra.¦Retour mène à la colonne des chaînes, un second Retour ferme.¦Indietro porta alla colonna dei canali, ancora Indietro chiude.
+Zurück bringt dich zur Senderspalte, nochmal Zurück schliesst.¦Back takes you to the channel column, press Back again to close.¦Geri sizi kanal sütununa götürür, tekrar Geri kapatır.¦Nazad vodi u stupac kanala, ponovni Nazad zatvara.¦Natrag vodi u stupac kanala, ponovni Natrag zatvara.¦Nazad vodi u kolonu kanala, ponovni Nazad zatvara.¦Atrás te lleva a la columna de canales; otra vez Atrás cierra.¦Retour mène à la colonne des chaînes, un second Retour ferme.¦Indietro porta alla colonna dei canali, ancora Indietro chiude.
 lädt …¦loading …¦yükleniyor …¦učitavanje …¦učitavanje …¦učitavanje …¦cargando …¦chargement …¦caricamento …
 Kein Programm verfügbar¦No guide data available¦Program bilgisi yok¦Program nije dostupan¦Program nije dostupan¦Program nije dostupan¦Programación no disponible¦Programme indisponible¦Programma non disponibile
 Kein Programm für diesen Sender¦No guide data for this channel¦Bu kanal için program yok¦Nema programa za ovaj kanal¦Nema programa za ovaj kanal¦Nema programa za ovaj kanal¦Sin programación para este canal¦Aucun programme pour cette chaîne¦Nessun programma per questo canale
@@ -96,7 +96,7 @@ Dieses Videoformat kann das Gerät nicht abspielen.¦This device cannot play thi
 Der Stream ist fehlerhaft oder wird nicht unterstützt.¦The stream is faulty or not supported.¦Yayın hatalı veya desteklenmiyor.¦Stream je neispravan ili nije podržan.¦Stream je neispravan ili nije podržan.¦Stream je neispravan ili nije podržan.¦La transmisión es defectuosa o no es compatible.¦Le flux est défectueux ou non pris en charge.¦Lo stream è difettoso o non supportato.
 Wiedergabe nicht möglich.¦Playback not possible.¦Oynatma mümkün değil.¦Reprodukcija nije moguća.¦Reprodukcija nije moguća.¦Reprodukcija nije moguća.¦No se puede reproducir.¦Lecture impossible.¦Riproduzione non possibile.
 Audio & Untertitel¦Audio & subtitles¦Ses ve altyazı¦Zvuk i titlovi¦Zvuk i titlovi¦Zvuk i titlovi¦Audio y subtítulos¦Audio et sous-titres¦Audio e sottotitoli
-Links schließt das Menü¦Left closes the menu¦Sol menüyü kapatır¦Lijevo zatvara meni¦Lijevo zatvara izbornik¦Levo zatvara meni¦Izquierda cierra el menú¦Gauche ferme le menu¦Sinistra chiude il menu
+Links schliesst das Menü¦Left closes the menu¦Sol menüyü kapatır¦Lijevo zatvara meni¦Lijevo zatvara izbornik¦Levo zatvara meni¦Izquierda cierra el menú¦Gauche ferme le menu¦Sinistra chiude il menu
 Rechts wechselt zu den Untertiteln¦Right switches to subtitles¦Sağ altyazılara geçer¦Desno prebacuje na titlove¦Desno prebacuje na titlove¦Desno prebacuje na titlove¦Derecha cambia a los subtítulos¦Droite passe aux sous-titres¦Destra passa ai sottotitoli
 Audio¦Audio¦Ses¦Zvuk¦Zvuk¦Zvuk¦Audio¦Audio¦Audio
 Keine Auswahl verfügbar¦No selection available¦Seçenek yok¦Nema dostupnog izbora¦Nema dostupnog izbora¦Nema dostupnog izbora¦Sin opciones disponibles¦Aucun choix disponible¦Nessuna scelta disponibile
@@ -129,7 +129,7 @@ Pause¦Pause¦Duraklat¦Pauza¦Pauza¦Pauza¦Pausa¦Pause¦Pausa
 {#0} Sekunden vor¦{#0} seconds forward¦{#0} saniye ileri¦{#0} sekundi unaprijed¦{#0} sekundi unaprijed¦{#0} sekundi unapred¦{#0} segundos adelante¦{#0} secondes en avant¦{#0} secondi avanti
 Einstellungen¦Settings¦Ayarlar¦Postavke¦Postavke¦Podešavanja¦Ajustes¦Réglages¦Impostazioni
 Links = zurück¦Left = back¦Sol = geri¦Lijevo = nazad¦Lijevo = nazad¦Levo = nazad¦Izquierda = atrás¦Gauche = retour¦Sinistra = indietro
-Größe¦Size¦Boyut¦Veličina¦Veličina¦Veličina¦Tamaño¦Taille¦Dimensione
+Grösse¦Size¦Boyut¦Veličina¦Veličina¦Veličina¦Tamaño¦Taille¦Dimensione
 Farbe¦Color¦Renk¦Boja¦Boja¦Boja¦Color¦Couleur¦Colore
 Hintergrund¦Background¦Arka plan¦Pozadina¦Pozadina¦Pozadina¦Fondo¦Arrière-plan¦Sfondo
 Rand¦Edge¦Kenar¦Rub¦Rub¦Ivica¦Borde¦Contour¦Bordo

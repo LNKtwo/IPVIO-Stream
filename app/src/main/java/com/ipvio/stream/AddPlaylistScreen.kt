@@ -305,7 +305,7 @@ private fun PhoneCard(modifier: Modifier, address: String?, code: String) {
                     horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
                     QrImage(address, 110.dp)
-                    Text("OK = groß", color = Muted, fontSize = 12.sp)
+                    Text("OK = gross", color = Muted, fontSize = 12.sp)
                 }
             }
             Step(3, "Den Code von hier eingeben:")
@@ -332,7 +332,7 @@ private fun PhoneCard(modifier: Modifier, address: String?, code: String) {
                     Text("Oder Adresse im Browser eintippen:", color = Muted, fontSize = 16.sp)
                     Text(address, color = Accent2, fontSize = 26.sp, fontWeight = FontWeight.ExtraBold, raw = true)
                     Text("Code: $code", color = Color.White, fontSize = 26.sp, fontWeight = FontWeight.ExtraBold, raw = true)
-                    Text("Zurück oder OK schließt das Bild.", color = Muted, fontSize = 15.sp)
+                    Text("Zurück oder OK schliesst das Bild.", color = Muted, fontSize = 15.sp)
                 }
             }
         }

@@ -123,8 +123,8 @@ fun Guide(
     LaunchedEffect(Unit) { while (true) { delay(30_000); nowSec = System.currentTimeMillis() / 1000 } }
     // dp per minute: "Small" shows a good 3 hours at once, "Medium" a good 2 hours
     val zooms = listOf(3.5f, 5f, 8f)
-    val zoomNames = listOf("Klein", "Mittel", "Groß")
-    val rowNames = listOf("Kompakt", "Normal", "Groß")
+    val zoomNames = listOf("Klein", "Mittel", "Gross")
+    val rowNames = listOf("Kompakt", "Normal", "Gross")
     val rowHeights = listOf(54, 66, 82)
     val dpm = zooms[GuidePrefs.zoom]
     val rowH = rowHeights[GuidePrefs.rowSize]
@@ -267,7 +267,7 @@ fun Guide(
                                         Text("Vergangene Sendungen", color = Color.White, fontSize = 15.sp)
                                         SmallPill(if (GuidePrefs.hidePast) "Ausblenden" else "Abdunkeln") { GuidePrefs.hidePast = !GuidePrefs.hidePast; GuidePrefs.save(ctx) }
                                     }
-                                    Text("Zurück: Sendung, Sender, Kategorie, dann schließen", color = Muted, fontSize = 13.sp)
+                                    Text("Zurück: Sendung, Sender, Kategorie, dann schliessen", color = Muted, fontSize = 13.sp)
                                     Text("Jetzt ${hhmm(nowSec)} · Zeitzone ${epgZone().id} (änderbar unter Einstellungen > Sprache & Region)", color = Muted, fontSize = 13.sp)
                                 }
                             }
@@ -357,7 +357,7 @@ fun Guide(
             val okText = guideOkAction(infoE, infoItem, nowSec)
             GuideHint("OK", okText)
             if (pastDays > 0) GuideHint(null, "1 Tag", AIcon.Rewind, AIcon.FastForward)
-            GuideHint("Zurück", "Sender, Kategorie, schließen")
+            GuideHint("Zurück", "Sender, Kategorie, schliessen")
         }
 }
 }
@@ -441,7 +441,7 @@ private fun GuideDetailPanel(e: EpgEntry?, ch: Item?, nowSec: Long, modifier: Mo
             if (e == null || ch == null) {
                 Text("TV-Guide", color = Color.White, fontSize = 22.sp, fontWeight = FontWeight.ExtraBold)
                 Text("Wähle eine Sendung mit den Pfeiltasten, OK schaltet auf den Sender.", color = PT.T2, fontSize = 14.sp)
-                Text("Zurück: zum Sender, dann zur Kategorie, dann schließen.", color = Muted, fontSize = 13.sp)
+                Text("Zurück: zum Sender, dann zur Kategorie, dann schliessen.", color = Muted, fontSize = 13.sp)
                 return@Column
             }
             val isNow = nowSec >= e.start && nowSec < e.end

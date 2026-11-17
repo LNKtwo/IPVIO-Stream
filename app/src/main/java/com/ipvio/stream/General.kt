@@ -96,7 +96,7 @@ object General {
             Font(R.font.inter_extrabold, FontWeight.ExtraBold)
         )
     }
-    val TEXT_SCALES = listOf("Klein", "Normal", "Groß", "Sehr groß")
+    val TEXT_SCALES = listOf("Klein", "Normal", "Gross", "Sehr gross")
     private val TEXT_FACTORS = floatArrayOf(0.9f, 1f, 1.15f, 1.3f)
     fun textFactor(i: Int = textScaleIdx): Float = TEXT_FACTORS[i.coerceIn(0, TEXT_FACTORS.lastIndex)]
 

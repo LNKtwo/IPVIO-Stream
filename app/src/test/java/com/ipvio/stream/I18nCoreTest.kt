@@ -40,7 +40,7 @@ class I18nCoreTest {
     }
     @Test fun guideLegend() {
         assertEquals("watch", I18nCore.translate("ansehen", EN))
-        assertEquals("close", I18nCore.translate("schließen", EN))
+        assertEquals("close", I18nCore.translate("schliessen", EN))
         assertEquals("NOW", I18nCore.translate("JETZT", EN))
         assertEquals("Subtitle style", I18nCore.translate("Untertitel-Stil", EN))
         assertEquals("Playback speed", I18nCore.translate("Wiedergabe-Tempo", EN))

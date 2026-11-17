@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+## 1.4.3-lnk2 (versionCode 11)
+- German texts in Swiss spelling: "ss" instead of "ß" (e.g. "Grösse", "schliessen"). Search and sport detection still match both spellings in playlist names
+
 ## 1.4.3-lnk1 (LNKtwo's own version, based on Emrodev's 1.4.3)
 - Own app: app ID `com.ipvio.stream.lnk`, name "IPVIO LNK", so it installs beside Emrodev's IPVIO Stream; the update check reads LNKtwo/IPVIO-Stream's releases. versionCode 10
 - Player: the remote's channel keys (P+ / P−, e.g. Sony's PROG) switch to the next / previous channel in live TV, also in Boomer mode

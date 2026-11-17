@@ -79,7 +79,7 @@ object PlaylistLogic {
         is javax.net.ssl.SSLPeerUnverifiedException -> "Das Zertifikat des Anbieters passt nicht zur Server-Adresse. Beim Anbieter nach einer aktuellen Adresse fragen."
         is javax.net.ssl.SSLException -> "Sichere Verbindung fehlgeschlagen (Zertifikat)."
         is IllegalArgumentException -> "Ungültige Adresse."
-        is OutOfMemoryError -> "Die Playlist ist zu groß für den Speicher dieses Geräts."
+        is OutOfMemoryError -> "Die Playlist ist zu gross für den Speicher dieses Geräts."
         is java.io.IOException -> if (noSpace(e)) NO_SPACE else "Verbindung unterbrochen. Bitte erneut versuchen."
         else -> "Laden fehlgeschlagen (" + e.javaClass.simpleName + ")."
     }

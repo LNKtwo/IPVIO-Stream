@@ -112,7 +112,7 @@ fun BoxScope.ArchivePanel(
                     color = Accent2, fontSize = 15.sp, fontWeight = FontWeight.SemiBold, maxLines = 1, overflow = TextOverflow.Ellipsis
                 )
             }
-            Text("Links/Rechts = Spalte  ·  Zurück schließt", color = Muted, fontSize = 13.sp, maxLines = 1)
+            Text("Links/Rechts = Spalte  ·  Zurück schliesst", color = Muted, fontSize = 13.sp, maxLines = 1)
         }
         Row(Modifier.fillMaxWidth().padding(top = 16.dp), horizontalArrangement = Arrangement.spacedBy(14.dp)) {
             // 1) Channels with archive

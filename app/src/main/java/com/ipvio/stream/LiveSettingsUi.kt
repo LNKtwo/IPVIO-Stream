@@ -34,10 +34,10 @@ internal fun LiveBufferSection(ctx: Context) {
     ) { LiveSettings.setTimeshift(ctx, it) }
     val mbs = LiveSettings.BUFFER_MB
     val mbLabels = mbs.map { if (it >= 1024) "${it / 1024} GB" else "$it MB" }
-    SelectRow("Puffergröße", mbLabels[mbs.indexOf(LiveSettings.bufferMb).coerceAtLeast(0)], mbLabels, mbs.indexOf(LiveSettings.bufferMb).coerceAtLeast(0)) {
+    SelectRow("Puffergrösse", mbLabels[mbs.indexOf(LiveSettings.bufferMb).coerceAtLeast(0)], mbLabels, mbs.indexOf(LiveSettings.bufferMb).coerceAtLeast(0)) {
         LiveSettings.setBufferMb(ctx, mbs[it])
     }
-    Hint("Ungefähr: 512 MB reichen für 10–20 Minuten in HD. Der Puffer wird beim Schließen des Players gelöscht.")
+    Hint("Ungefähr: 512 MB reichen für 10–20 Minuten in HD. Der Puffer wird beim Schliessen des Players gelöscht.")
     val dirs = remember { Recorder.dirs(ctx) }
     val labels = dirs.mapIndexed { i, f -> Recorder.dirLabel(ctx, i, f) }
     SelectRow("Speicherort für Aufnahmen", labels.getOrElse(LiveSettings.recDir) { labels.first() }, labels, LiveSettings.recDir.coerceIn(0, labels.lastIndex)) {

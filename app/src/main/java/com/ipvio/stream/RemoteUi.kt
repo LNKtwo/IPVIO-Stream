@@ -82,7 +82,7 @@ fun RemoteOverlay(modifier: Modifier = Modifier) {
                     color = Muted, fontSize = 14.sp
                 )
             }
-            PillButton("Schließen", Modifier.focusRequester(focus), light = true) { close() }
+            PillButton("Schliessen", Modifier.focusRequester(focus), light = true) { close() }
         }
     }
 }

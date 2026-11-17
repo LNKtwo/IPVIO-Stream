@@ -67,7 +67,7 @@ object SportLogic {
         Cat("American Football", rx("""\b(nfl|american\s?football|super\s?bowl|ncaa\s?football|college\s?football|ncaaf)\b""")),
         Cat("Basketball", rx("""\b(nba|wnba|basketball|euroleague|bbl|ncaa\s?basketball|acb)\b""")),
         Cat("Eishockey", rx("""\b(nhl|eishockey|ice\s?hockey|khl|del2?)\b""")),
-        Cat("Fußball", rx("""\b(fußball|fussball|football|soccer|futbol|fútbol|calcio|fudbal|nogomet|bundesliga|champions\s?league|europa\s?league|conference\s?league|premier\s?league|la\s?liga|laliga|serie\s?a|ligue\s?1|eredivisie|s[üu]per\s?lig|dfb[-\s]?pokal|fa\s?cup|copa|em\s?20\d\d|wm\s?20\d\d|world\s?cup|euro\s?20\d\d|mls)\b""")),
+        Cat("Fussball", rx("""\b(fußball|fussball|football|soccer|futbol|fútbol|calcio|fudbal|nogomet|bundesliga|champions\s?league|europa\s?league|conference\s?league|premier\s?league|la\s?liga|laliga|serie\s?a|ligue\s?1|eredivisie|s[üu]per\s?lig|dfb[-\s]?pokal|fa\s?cup|copa|em\s?20\d\d|wm\s?20\d\d|world\s?cup|euro\s?20\d\d|mls)\b""")),
         Cat("Tennis", rx("""\b(tennis|wimbledon|roland\s?garros|us\s?open|australian\s?open|atp|wta)\b""")),
         Cat("Motorsport", rx("""\b(formel\s?1|formula\s?1|f1|motogp|moto2|moto3|grand\s?prix|nascar|indycar|dtm|rallye|rally|wrc|motorsport|superbike)\b""")),
         Cat("Kampfsport", rx("""\b(ufc|boxen|boxing|wwe|mma|wrestling|kickbox\w*|fight\w*|ppv)\b""")),

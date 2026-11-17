@@ -92,7 +92,7 @@ object WhatsNew {
             "Filme und Serien: auf Wunsch direkt zu den Kategorien (Einstellungen > Allgemein)",
             "Player: Untertitel- und Ton-Verzögerung im Menü einstellbar",
             "Live TV: OK gedrückt halten entfernt einen Sender aus „Zuletzt gesehen“",
-            "Live TV: Größe der Senderzeilen wählbar (Klein, Normal, Groß)",
+            "Live TV: Grösse der Senderzeilen wählbar (Klein, Normal, Gross)",
             "Jugendschutz: Inhalte für Erwachsene auf Wunsch nie auf den Startseiten",
             "Filter: Kategorien suchen, Änderungen mit „Übernehmen“ auf einmal speichern",
             "API-Schlüssel bequem am Handy eingeben (QR-Code oben auf der Seite)",
@@ -102,13 +102,13 @@ object WhatsNew {
             "Kategorien abhaken ruckelt nicht mehr und bringt die App nicht mehr zum Absturz",
             "24/7- und Adult-Kanäle erscheinen wieder, wenn der Filter aus ist",
             "Live TV: Genre-Kategorien lassen sich wieder per OK gedrückt halten ausblenden",
-            "Player: das Menü schließt sich nur noch mit Zurück",
+            "Player: das Menü schliesst sich nur noch mit Zurück",
             "Jugendschutz: die PIN lässt sich nur noch mit der PIN entfernen",
-            "Suche am Handy: nur noch „Schließen“, Zurück schließt mit einem Druck",
+            "Suche am Handy: nur noch „Schliessen“, Zurück schliesst mit einem Druck",
             "Startseite: der Playlist-Knopf zeigt „Playlist“ statt eines Download-Symbols, „Zusätzlich anzeigen“ entfernt",
             "Startseite: Reihenfolge und ausgeblendete Kategorien gelten auch für die Reihen",
             "Untertitel-Suche (SubDL) findet bei Serien wieder Treffer",
-            "Bildformate heißen so, wie sie wirken („Zuschneiden“)",
+            "Bildformate heissen so, wie sie wirken („Zuschneiden“)",
             "Viele fehlende Übersetzungen ergänzt"
         )
     )

@@ -69,7 +69,7 @@ fun BoxScope.TracksPanel(
         }
     }
 
-    PPanelFrame(680.dp, "Audio & Untertitel", "Links schließt das Menü  ·  Rechts wechselt zu den Untertiteln") {
+    PPanelFrame(680.dp, "Audio & Untertitel", "Links schliesst das Menü  ·  Rechts wechselt zu den Untertiteln") {
         Row(Modifier.weight(1f, fill = false), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
             Column(
                 Modifier.weight(1f).onPreviewKeyEvent { e ->
@@ -205,7 +205,7 @@ fun BoxScope.EpisodesPanel(
             runCatching { reqs.getOrPut(target) { FocusRequester() }.requestFocus() }
         }
     }
-    PSimplePanel(520.dp, "Folgen", if (long) "Rechts / Vorspulen = 50 weiter · Zurückspulen = zurück · Links schließt" else "Links schließt das Menü", onClose) {
+    PSimplePanel(520.dp, "Folgen", if (long) "Rechts / Vorspulen = 50 weiter · Zurückspulen = zurück · Links schliesst" else "Links schliesst das Menü", onClose) {
         LazyColumn(state = st, verticalArrangement = Arrangement.spacedBy(PT.RowGap)) {
             itemsIndexed(rows) { i, r ->
                 val ep = r.ep

@@ -78,11 +78,11 @@ object Boomer {
         private set
 
     // Appearance (stored per profile); everything can be set in Settings > Boomer mode with a live preview
-    val SIZE_NAMES = listOf("Klein", "Mittel", "Groß", "Riesig")
+    val SIZE_NAMES = listOf("Klein", "Mittel", "Gross", "Riesig")
     val SIZE_K = floatArrayOf(0.75f, 1f, 1.25f, 1.5f)
     val ROW_H = floatArrayOf(0.42f, 0.55f, 0.65f, 0.75f)
     val TEXT_K = floatArrayOf(0.85f, 1f, 1.25f, 1.5f)
-    val COLOR_NAMES = listOf("Rot", "Gelb", "Grün", "Blau", "Orange", "Weiß", "Pink")
+    val COLOR_NAMES = listOf("Rot", "Gelb", "Grün", "Blau", "Orange", "Weiss", "Pink")
     val COLORS = listOf(Color(0xFFFF2D2D), Color(0xFFFFD60A), Color(0xFF30D158), Color(0xFF3B82F6), Color(0xFFFF9F0A), Color.White, Color(0xFFFF4FA3))
     val THICK_NAMES = listOf("Dünn", "Mittel", "Dick", "Extra dick")
     val THICK_PX = floatArrayOf(5f, 9f, 13f, 20f)
@@ -463,7 +463,7 @@ internal fun BoomerPage(ctx: Context, onExit: () -> Unit) {
             { if (it == first) { Parental.setPin(ctx, it); err = null; step = 0 } else { err = "Die PINs stimmen nicht überein"; step = 2 } },
             { step = 2 })
         else -> {
-            Hint("Eine ganz einfache Oberfläche für Eltern und Großeltern: große Kacheln mit Bild, kein Menü, keine Suche, keine Einstellungen. Du stellst hier alles ein, die Person davor muss nur noch auswählen.")
+            Hint("Eine ganz einfache Oberfläche für Eltern und Grosseltern: grosse Kacheln mit Bild, kein Menü, keine Suche, keine Einstellungen. Du stellst hier alles ein, die Person davor muss nur noch auswählen.")
             // No switch: once the mode runs, this page is no longer reachable (only via the hidden exit with PIN)
             var tick by remember { mutableIntStateOf(0) }
             val granted = remember(tick) { canStartFromBoot(ctx) }
@@ -503,17 +503,17 @@ internal fun BoomerPage(ctx: Context, onExit: () -> Unit) {
             SectionTitle("Aussehen")
             Row(horizontalArrangement = Arrangement.spacedBy(dpx(32))) {
                 Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                    SectionTitle("Größe der Kacheln")
+                    SectionTitle("Grösse der Kacheln")
                     BoomerChips(Boomer.SIZE_NAMES, Boomer.tileSize) { Boomer.setTileSize(ctx, it) }
-                    SectionTitle("Größe der Schrift")
+                    SectionTitle("Grösse der Schrift")
                     BoomerChips(Boomer.SIZE_NAMES, Boomer.textSize) { Boomer.setTextSize(ctx, it) }
                     SectionTitle("Markierung: Farbe des Rahmens")
                     BoomerChips(Boomer.COLOR_NAMES, Boomer.color, Boomer.COLORS) { Boomer.setColor(ctx, it) }
                     SectionTitle("Markierung: Dicke des Rahmens")
                     BoomerChips(Boomer.THICK_NAMES, Boomer.thick) { Boomer.setThick(ctx, it) }
                     ToggleRow("Zusätzliche helle Innenlinie", "Macht die Markierung noch deutlicher, auch bei Farbschwäche.", Boomer.inner) { Boomer.setInner(ctx, it) }
-                    ToggleRow("Animationen", "Die markierte Kachel wird leicht größer. Ausschalten = alles bleibt ruhig.", Boomer.anim) { Boomer.setAnim(ctx, it) }
-                    ToggleRow("Logos und Bilder zeigen", "Aus = nur der Name in großer Schrift.", Boomer.logos) { Boomer.setLogos(ctx, it) }
+                    ToggleRow("Animationen", "Die markierte Kachel wird leicht grösser. Ausschalten = alles bleibt ruhig.", Boomer.anim) { Boomer.setAnim(ctx, it) }
+                    ToggleRow("Logos und Bilder zeigen", "Aus = nur der Name in grosser Schrift.", Boomer.logos) { Boomer.setLogos(ctx, it) }
                 }
                 BoomerPreview(Modifier.width(dpx(560)))
             }

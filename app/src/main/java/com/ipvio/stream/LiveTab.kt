@@ -750,7 +750,7 @@ fun ReminderCard(r: Reminder, modifier: Modifier, onClose: () -> Unit, onSwitch:
             Text(raw = true, text = r.chTitle, color = Muted, fontSize = 14.sp, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
         PillButton("Umschalten", Modifier.focusRequester(fr), light = true) { onSwitch() }
-        PillButton("Schließen") { onClose() }
+        PillButton("Schliessen") { onClose() }
     }
 }
 

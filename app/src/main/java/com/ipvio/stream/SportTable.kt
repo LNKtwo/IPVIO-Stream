@@ -132,7 +132,7 @@ private fun TableClose(modifier: Modifier, onClick: () -> Unit) {
     Box(
         modifier.clip(shape).background(if (f) Color(0x33FFFFFF) else Color(0x14FFFFFF)).border(if (f) 2.dp else 1.dp, if (f) Accent1 else Color(0x1AFFFFFF), shape)
             .onFocusChanged { f = it.isFocused }.clickable(onClick = onClick).padding(horizontal = dpx(14), vertical = dpx(8))
-    ) { Text("Schließen", color = Color.White, fontSize = spx(15)) }
+    ) { Text("Schliessen", color = Color.White, fontSize = spx(15)) }
 }
 
 @Composable

@@ -88,7 +88,7 @@ fun UpdateCardHost() {
                     Action.RETRY -> PillButton("Erneut versuchen", light = true) { run++ }
                     Action.NONE -> {}
                 }
-                PillButton("Schließen") { closed = true }
+                PillButton("Schliessen") { closed = true }
             }
         }
     }
