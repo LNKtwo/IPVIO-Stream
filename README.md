@@ -19,6 +19,28 @@ Based on IPVIO Stream 1.4.3:
 
 Changes per version: [CHANGELOG.md](CHANGELOG.md).
 
+## Edit channel lists in a browser
+
+Build your own channel lists (e.g. "News", "Sport", "Kids") on a computer, phone or tablet instead of with the remote. The lists are stored on the TV, so they work right away in Live TV.
+
+**You need:** a playlist loaded in IPVIO LNK, and the TV and the computer on the same Wi-Fi / home network.
+
+1. **On the TV:** open the sidebar and choose **Phone search** (German: *Handy-Suche*). A card shows a QR code, an address like `http://192.168.1.50:8765/r` and a 4-digit **code**.
+2. **On the computer:** open that address in a browser, but end it with **`/lists`** instead of `/r`, e.g. `http://192.168.1.50:8765/lists`. Use the IP address and port shown on **your** TV. (The phone page `/r` shows this address too, under "My channel lists".)
+3. When the browser asks for the **code from the TV**, enter the 4-digit code from the card. You can close the card on the TV now; the page keeps working while the app is open.
+4. **Create a list:** click **New list** at the top and enter a name. Further buttons: **Rename** and **Delete list**. The drop-down at the top switches between your lists.
+5. **Add channels:** on the left (**All channels**), choose a category or type into **Search channels …**. Click **Add** next to a channel. Channels that are already in the list show **In the list**.
+6. **Sort and remove:** on the right you see the chosen list. **↑** / **↓** move a channel up or down, **✕** removes it.
+7. **On the TV:** the lists appear in **Live TV** next to the categories and favourites, and in the player's channel list.
+
+**Good to know**
+
+- The code is new each time the app starts. If the page shows an error or asks for the code again, open **Phone search** on the TV and use the new address and code.
+- Only live channels can be added. Films and series are not part of channel lists.
+- You can still create and edit lists on the TV itself (menu key in Live TV). Both ways change the same lists.
+- If search says the playlist is still loading, wait until the TV has finished loading it.
+- The page uses plain HTTP and is only meant for your home network. Do not forward the port in your router.
+
 ## Install
 
 **Download:** [IPVIO-Stream.apk (latest IPVIO LNK release)](https://github.com/LNKtwo/IPVIO-Stream/releases/latest/download/IPVIO-Stream.apk)
